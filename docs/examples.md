@@ -1,5 +1,8 @@
 # Beispiele
 
+y{{ task(title="los gehts", question="Wie heißt du?", solution="mir egal", tip="schau mal in deinen perso") }}
+
+
 <div class="grid cards" markdown>
 
 - [:simple-python: **Setup Python**](mengenlehre/verschiedene_schreibweisen)
@@ -31,6 +34,7 @@
 </div>
 
 
+
 !!! tip "Schneller Navigieren"
 
     ++p++ oder ++comma++ : Zur vorherigen Seite gehen (**P**revious)
@@ -56,3 +60,4 @@ b = 2
 1.  Ausgabe
 
 The `#!python range()` function is used to generate a sequence of numbers.
+

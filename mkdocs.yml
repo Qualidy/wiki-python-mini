@@ -43,10 +43,12 @@ markdown_extensions:
 
 plugins:
   - search
+  - macros
 
 extra_css:
   - stylesheets/logo.css
   - stylesheets/grid.css
+  - stylesheets/video_admonition.css
 
 extra_javascript:
   - javascripts/mathjax.js
