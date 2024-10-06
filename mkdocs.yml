@@ -4,3 +4,11 @@ site_name: Python Starter Schulung
 
 theme:
   name: material
+  palette:
+    primary: amber
+    accent: indigo
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+
+extra_css:
+  - stylesheets/logo.css
