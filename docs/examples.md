@@ -1,6 +1,6 @@
 # Beispiele
 
-y{{ task(title="los gehts", question="Wie heißt du?", solution="mir egal", tip="schau mal in deinen perso") }}
+{{ task(title="los gehts", question="Wie heißt du?", solution="mir egal", tip="schau mal in deinen perso") }}
 
 
 <div class="grid cards" markdown>
