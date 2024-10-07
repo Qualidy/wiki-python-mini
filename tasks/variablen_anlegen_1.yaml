@@ -1,0 +1,18 @@
+title: Variablen anlegen
+question: |
+  Ersetzten Sie die `#!python ...` im folgenden Code so, dass es eine Variable `#!python vorname` mit dem Wert `'Hans'`
+  und eine Variable `#!python alter` mit dem Wert `#!python 32` gibt.
+  
+  ```python
+  ... = 'Hans'
+  ... = 32
+  ```
+solution: |
+  ```python
+  vorname = 'Hans'
+  alter = 32
+  ```
+  Auch folgende Notation ist möglich:
+  ```python
+  vorname, alter = 'Hans', 32
+  ```

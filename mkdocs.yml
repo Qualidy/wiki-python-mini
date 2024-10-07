@@ -49,6 +49,8 @@ extra_css:
   - stylesheets/logo.css
   - stylesheets/grid.css
   - stylesheets/video_admonition.css
+  - stylesheets/python_tutor_admonition.css
+  - stylesheets/chat.css
 
 extra_javascript:
   - javascripts/mathjax.js
