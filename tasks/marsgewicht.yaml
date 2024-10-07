@@ -2,10 +2,10 @@ title: Marsgewicht
 question: |
   Erstellen Sie das folgenden Programm:
   
-  * In der Variablen `#!python gewicht` steht ein Gewicht (z.B. 65 kg)
+  * In der Variablen `#!python gewicht` steht ein Gewicht (z.B. $65$ kg)
   * In einer zweiten Variablen `#!python mars_faktor` steht die Zahl `#!python 0.37`.
   * In einer dritten Variablen `#!python mars_gewicht` soll das Gewicht auf dem Markt gespeichert werden. Dies wird berechnet, indem `#!python gewicht` und `#!python mars_faktor` miteinander multipliziert werden.  
-  * Auf der Konsole soll nun das `#!python mars_gewicht` ausgegeben werden. (In diesem Beispiel `#!python 24.7`)
+  * Auf der Konsole soll nun das `#!python mars_gewicht` ausgegeben werden. (In diesem Beispiel $24.7$)
   
   Hier ist [Schwerkraftrechner](https://astrokramkiste.de/schwerkraft/index.php) mit dem Sie ihr Programm überprüfen können.
   

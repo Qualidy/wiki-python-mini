@@ -1,0 +1,23 @@
+title: Marsgewicht
+question: |
+  Bei diesem Programm wird das Gewicht auf dem Mars berechnet.
+  
+  ```python
+  gewicht = 65
+  mars_faktor = 0.37
+  mars_gewicht = gewicht * mars_faktor
+  print(f'Dein Marsgewicht: {mars_gewicht}') # (1)!
+  ```
+  
+  1.  Wenn eine Zeichenkette mit `f` beginnt, so kann man in geschweiften Klammern `{...}` Variablen einfügen. Dadurch werden die Inhalte der Variablen ausgelesen und eingefügt. 
+  
+      Diese sog. **f**ormatierten Strings sind sehr nützlich und werden oft verwendet.
+  
+  Ändern Sie das Programm, sodass der Nutzer sein eigenes Gewicht angeben kann.
+solution: |
+  ```python
+  gewicht = int(input('Was wiegst du?')
+  mars_faktor = 0.37
+  mars_gewicht = gewicht * mars_faktor
+  print(f'Dein Marsgewicht: {mars_gewicht}')
+  ```
