@@ -17,7 +17,7 @@ tip:  |
   Eine Zahl zu Quadrieren heißt, sie mit sich selbst zu multiplizieren. Das heißt du kannst auch folgende Formel verwenden:
   
   $$
-  \text{BMI} = \frac{\text{Gewicht in kg}}{(\text{Körpergröße in m}) \cdot (\text{Körpergröße in m=}}
+  \text{BMI} = \frac{\text{Gewicht in kg}}{(\text{Körpergröße in m}) \cdot (\text{Körpergröße in m)}}
   $$
   
   Um zwei Zahlen in Python miteinander zu dividieren nutzen Sie `#!python /`. Z.B. `a = 7 / 8`.
