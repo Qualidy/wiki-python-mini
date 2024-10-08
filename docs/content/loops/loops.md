@@ -42,10 +42,12 @@ stateDiagram-v2
     B --> F : False
 ```
 
-Aufgabenideen:
+{{ task(file="tasks/while_lesen_1.yaml") }}
 
-input eränzen
+{{ task(file="tasks/while_lesen_2.yaml") }}
 
-Ich musste 2 x mal verdoppeln bis es größer als y ist
+{{ task(file="tasks/dauernder_input.yaml") }}
 
-ausgaben vorhersagen
+{{ task(file="tasks/schleifen_und_if.yaml") }}
+
+{{ task(file="tasks/immer_wechselnder_output.yaml") }}

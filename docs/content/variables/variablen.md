@@ -1,7 +1,5 @@
 # Variablen
 
-## Was sind Variablen?
-
 In Python können wir **Informationen in Variablen speichern**.
 
 Man kann sich so eine Variable vorstellen, wie einen beschrifteten Schuhkarton in einem Schrank. 
@@ -66,6 +64,8 @@ print(a)""") }}
 {{ task(file="tasks/variablenbefüllung_voraussagen_3.yaml") }}
 
 {{ task(file="tasks/variablenbenennung.yaml") }}
+
+{{ task(file="tasks/variablen_vertauschen.yaml") }}
 
 {{ task(file="tasks/marsgewicht.yaml") }}
 
