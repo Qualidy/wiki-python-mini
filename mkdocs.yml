@@ -2,6 +2,16 @@
 
 site_name: Python Starter Schulung
 
+nav:
+  - Python Starter Schulung: index.md
+  - Variablen:
+      - Was sind Variablen?: content/variables/variablen.md
+      - Nutzereingaben: content/variables/nutzereingaben.md
+      - Datentypen: content/variables/datentypen.md
+  - Bedingter Code:
+      - Was ist Bedingter Code?: content/bedingter_code/bedingter_code.md
+
+
 theme:
   name: material
   palette:

@@ -9,7 +9,7 @@ question: |
   
   Hier ist [Schwerkraftrechner](https://astrokramkiste.de/schwerkraft/index.php) mit dem Sie ihr Programm überprüfen können.
   
-  🚀Bonus: Erweitern Sie Ihr Programm gerne um weiter Planeten.
+  🚀Bonus: Erweitern Sie Ihr Programm gerne um weitere Planeten.
 
 tip:  |
   Kommazahlen wie $0,37$ werden in Python mit einem Punkt, statt einem Komma geschrieben, also `#!python 0.37`
