@@ -8,6 +8,8 @@ window.onload = function() {
 
       const button = document.createElement("a");
       button.href = buttonUrl;
+      button.target = "_blank";  // Neuer Tab
+      button.rel = "noopener noreferrer";  // Sicherheitsmaßnahme
       button.className = "md-button";
       button.innerHTML = '<i class="fa-solid fa-bug"></i> Code im Debugger ansehen';
       block.insertAdjacentElement('afterend', button);

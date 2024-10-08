@@ -29,6 +29,10 @@ def define_env(env):
     def python_tutor(code_string, title="Code im Debugger"):
         return generate_pythontutor_iframe(code_string, title=title)
 
+    @env.macro
+    def python_tutor_button(code_string, title="Code im Debugger ansehen"):
+        return generate_pythontutor_button(code_string, title=title)
+
 
 def create_task(title="Aufgabe", question="⚠QUESTION_TEXT_MISSING⚠", solution="", tip="", difficulty=0, difficulty_icon='🌶'):
     difficulty_icons = difficulty * difficulty_icon + (" " if difficulty else "")
@@ -89,3 +93,30 @@ def generate_pythontutor_iframe(code_string, title='Python Tutor'):
 
     return iframe_tag
 
+
+def generate_pythontutor_button(code_string, title='Python Tutor'):
+    base_url = "https://pythontutor.com/render.html"
+
+    # Encoding des Codes
+    encoded_code = urllib.parse.quote(code_string)
+
+    # Parameter für den Hash-Teil der URL
+    hash_params = {
+        "code": encoded_code,
+        "cumulative": "false",
+        "curInstr": "0",
+        "heapPrimitives": "nevernest",
+        "origin": "opt-frontend.js",
+        "py": "3",
+        "rawInputLstJSON": "[]",
+        "textReferences": "false"
+    }
+
+    # Hash-String zusammenbauen
+    hash_string = "&".join(f"{key}={value}" for key, value in hash_params.items())
+    full_url = f"{base_url}#{hash_string}"
+
+    # Generieren des Button-Tags im Container
+    button_tag = f'<a href="{full_url}" target="_blank" class="md-button" rel="noopener noreferrer">{title}</a>'
+
+    return button_tag
