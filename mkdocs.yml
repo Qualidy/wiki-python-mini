@@ -9,7 +9,9 @@ nav:
       - Nutzereingaben: content/variables/nutzereingaben.md
       - Datentypen: content/variables/datentypen.md
   - Bedingter Code:
-      - Was ist Bedingter Code?: content/bedingter_code/bedingter_code.md
+      - Bedingter Code: content/bedingter_code/bedingter_code.md
+      - Bedingungen: content/bedingter_code/bedingung.md
+      - Bedingungen verknüpfen: content/bedingter_code/bedingungen_verknüpfen.md
 
 
 theme:
