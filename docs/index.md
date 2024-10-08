@@ -12,6 +12,7 @@ hide:
 
 - [:fontawesome-solid-boxes-stacked: **Variablen**](content/variables/variablen.md)
 - [:material-arrow-decision-outline: **Bedingter Code**](content/bedingter_code/bedingter_code.md)
+- [:material-rotate-left: **Codewiederholung**](content/loops/loops.md)
 
 </div>
 

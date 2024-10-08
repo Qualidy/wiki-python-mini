@@ -12,6 +12,8 @@ nav:
       - Bedingter Code: content/bedingter_code/bedingter_code.md
       - Bedingungen: content/bedingter_code/bedingung.md
       - Bedingungen verknüpfen: content/bedingter_code/bedingungen_verknüpfen.md
+  - Codewiederholung:
+      - While-Schleife: content/loops/loops.md
 
 
 theme:
@@ -35,7 +37,11 @@ markdown_extensions:
   - pymdownx.keys
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - md_in_html
   - attr_list
   - toc:
@@ -61,7 +67,7 @@ extra_css:
   - stylesheets/grid.css
   - stylesheets/video_admonition.css
   - stylesheets/python_tutor_admonition.css
-  - stylesheets/chat.css
+  - stylesheets/mermaid.css
 
 extra_javascript:
   - javascripts/mathjax.js
