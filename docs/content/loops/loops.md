@@ -34,8 +34,8 @@ stateDiagram-v2
     classDef yourState font-style:italic,font-weight:bold,fill:white
 
     B:Bedingung überprüfen
-    I:Code *im* eingerückten Block ausführen
-    F:Code *nach* eingerücktem Block ausführen
+    I:Code *im* eingerückten<br/>Block ausführen
+    F:Code *nach* eingerücktem<br/>Block ausführen
     [*] --> B:::yourState
     B --> I : True
     I --> B : Springe zurück

@@ -1,7 +1,8 @@
 title: Summen bilden
 question: |
   Schreibe ein Programm, dass den Nutzer nach einer Zahl fragt.
-  Das Programm hat intern eine 
+  Das Programm hat intern in einer Variablen namens `summe` die Summe 
+  aller bisher abgefragten Zahlen bilden und ausgeben.
   
   Die Konsolenausgabe soll also etwa so aussehen:
   

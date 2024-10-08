@@ -1,0 +1,33 @@
+title: Listen lesen
+question: |
+  Was erscheint hier auf der Konsole?
+  
+  ```{ .python .pytutor_button }
+  sprachen = ['Python', 'C++', 'Java']
+  
+  print(sprachen[2])
+  print(sprachen[1])
+  print(sprachen[0])
+  
+  sprachen[1] = 'Haskell'
+  
+  print(sprachen[0])
+  print(sprachen[1])
+  print(sprachen[2])
+  
+  pos = 2
+  print(sprachen[pos])
+  ```
+
+solution: |
+  Konsolenausgabe
+  
+  ```
+  Java
+  C++
+  Python
+  Python
+  Haskell
+  Java
+  Java
+  ```

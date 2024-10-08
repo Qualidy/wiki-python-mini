@@ -14,6 +14,8 @@ nav:
       - Bedingungen verknüpfen: content/bedingter_code/bedingungen_verknüpfen.md
   - Codewiederholung:
       - While-Schleife: content/loops/loops.md
+  - Collections:
+      - Listen: content/collections/lists.md
 
 
 theme:
