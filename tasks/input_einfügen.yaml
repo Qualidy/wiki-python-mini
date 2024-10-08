@@ -8,7 +8,7 @@ question: |
   ... = ...('Wie alt bist du?')
   ```
 solution: |
-  ```python
+  ``` { .python .pytutor_button }
   vorname = input('Wie heißt du?')
   alter = input('Wie alt bist du?')
   ```

@@ -20,8 +20,6 @@ theme:
   logo: assets/logo.png
   favicon: assets/favicon.png
   features:
-    - navigation.instant
-    - navigation.instant.progress
     - navigation.tracking
     - navigation.path
     - navigation.top
@@ -65,6 +63,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/mathjax.js
+  - javascripts/pytutor_button.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
@@ -77,5 +76,8 @@ extra:
       link: https://www.google.com/search?sca_esv=7e6ba2047fcb60f3&uds=AMwkrPtyB8MsmozA4Lwzqy2G2HCu-abqzc6moOG48q3gP5dtjTRzC2Ws0eSwcyLXDfZNuYCrZ7ByIreHLG9th3vKLekPoVeey0tumAbet4cVLQRLzdRFhUbOGbnyp3xo1V0hzzaNmkCN&si=AKbGX_rcuucMgom2rba1cdwsvM2SVoIkP2btyqGMV4t0GuHIs4sGV_1tpuqR0YHG4Rzd9SdJcL-lW6E-2aJA5azZLTKkIOrZ2j2aWwoBkVbdEJ0o0GPcQhs%3D&q=Qualidy+GmbH+Rezensionen&sa=X&ved=2ahUKEwibsbnSgcmFAxXNQvEDHaVYCiAQ3PALegQIRxAF
     - icon: fontawesome/solid/globe
       link: https://qualidy.de
+
+watch:
+  - tasks
 
 copyright: Copyright &copy; 2024 Qualidy GmbH

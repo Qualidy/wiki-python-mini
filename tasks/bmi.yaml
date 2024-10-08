@@ -22,7 +22,7 @@ tip:  |
   
   Um zwei Zahlen in Python miteinander zu dividieren nutzen Sie `#!python /`. Z.B. `a = 7 / 8`.
 solution: |
-  ```python
+  ``` { .python .pytutor_button }
   gewicht = float(input('Wie viel wiegst du in kg?'))
   größe = float(input('Wie viel wiegst du in Metern?'))
   

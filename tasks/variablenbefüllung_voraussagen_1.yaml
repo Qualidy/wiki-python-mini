@@ -11,7 +11,7 @@ question: |
   print(a+b)
   ```
 solution: |
-  ```python
+  ``` { .python .pytutor_button }
   a = 3
   b = 5
   

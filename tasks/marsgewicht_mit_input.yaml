@@ -15,7 +15,7 @@ question: |
   
   Ändern Sie das Programm, sodass der Nutzer sein eigenes Gewicht angeben kann.
 solution: |
-  ```python
+  ``` { .python .pytutor_button }
   gewicht = int(input('Was wiegst du?')
   mars_faktor = 0.37
   mars_gewicht = gewicht * mars_faktor

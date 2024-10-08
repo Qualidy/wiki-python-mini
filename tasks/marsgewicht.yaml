@@ -16,7 +16,7 @@ tip:  |
   
   Um zwei Zahlen in Python miteinander zu multiplizieren nutzen sie `#!python *`. Z.B. `a = 7 * 8`.
 solution: |
-  ```python
+  ``` { .python .pytutor_button }
   gewicht = 65
   mars_faktor = 0.37
   mars_gewicht = gewicht * mars_faktor

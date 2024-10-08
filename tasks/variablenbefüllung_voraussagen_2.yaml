@@ -15,7 +15,7 @@ question: |
   ```
 tip: Der Inhalt einer Variablen wird nur dann neu befüllt, wenn auch der Zuordnungsoperator `#!python =` aufgerufen wird.
 solution: |
-  ```python
+  ``` { .python .pytutor_button }
   a = 3
   print(a) # 3
   
@@ -26,4 +26,3 @@ solution: |
   
   print(a) # 7
   ```
-  [:fontawesome-solid-bug: Lösung im Debugger ansehen](https://pythontutor.com/render.html#code=a%20%3D%203%0Aprint%28a%29%0A%0Aa%20%3D%20a%20%2B%204%0Aprint%28a%29%0A%0Aprint%28a%20%2B%205%29%0A%0Aprint%28a%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false){ .md-button .md-button--primary } 

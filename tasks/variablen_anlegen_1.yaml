@@ -8,11 +8,13 @@ question: |
   ... = 32
   ```
 solution: |
-  ```python
+  ``` { .python .pytutor_button }
   vorname = 'Hans'
   alter = 32
   ```
+  
   Auch folgende Notation ist möglich:
-  ```python
+  
+  ``` { .python .pytutor_button }
   vorname, alter = 'Hans', 32
   ```

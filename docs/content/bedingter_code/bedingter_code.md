@@ -7,7 +7,7 @@ Eine **Bedingung** ist ein Ausdruck, der schließlich zu einem booleschen Wert `
 
 Wenn die Bedingung zu `True` auswertet, dann wird der eingerückte Code ausgeführt.
 
-```python
+``` { .python .pytutor_button }
 name = input("Wie ist dein Name?")
 if 'q' in name:
     print("Wow, das ist ja ein seltener Name!")
