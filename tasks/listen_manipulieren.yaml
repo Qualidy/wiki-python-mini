@@ -1,0 +1,27 @@
+title: Listen manipulieren
+question: |
+  Gegeben Sei die folgende Liste:
+  
+  ```python
+  primzahlen = [2, 3, 5, 9, 11, 13]
+  ```
+  
+  Tauschen Sie die `#!python 9` durch eine `7` aus. 
+  
+  Geben Sie dann jedes zweite Element der Liste aus. Die Konsolenausgabe ist also diese:
+  
+  ```
+  3
+  7
+  13
+  ```
+solution: |
+  ```{ .python .pytutor_button }
+  primzahlen = [2, 3, 5, 9, 11, 13]
+  
+  primzahlen[3] = 7
+  
+  print(primzahlen[1])
+  print(primzahlen[3])
+  print(primzahlen[5])
+  ```

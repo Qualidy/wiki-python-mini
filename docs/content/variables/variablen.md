@@ -18,16 +18,18 @@ a = 1 # (1)!
 print(a) # (4)!
 
 a = 2 # (2)!
-print(a) # (4)!
+print(a) # (5)!
 
 a = a + 3 # (3)!
-print(a) # (4)!
+print(a) # (6)!
 ```
 
 1. In der neuen Variablen `#!python a` ist initial der Wert `#!python 1` gespeichert.
 2. In der Variablen `#!python a` ist nun der Wert `#!python 2` gespeichert. Die `#!python 1` wird vergessen.
 3. Der Wert von `#!python a` wird zunächst ausgelesen und dann 3 dazuaddiert. Das Ergebnis (`#!python 5`) wird dann wieder in `#!python a` gespeichert.
 4. Der Wert der Variablen `#!python a` wird ausgelesen und in mit der `#!python print`-Funktion auf der Konsole ausgegeben.
+5. Der Wert der Variablen `#!python a` wird ausgelesen und in mit der `#!python print`-Funktion auf der Konsole ausgegeben.
+6. Der Wert der Variablen `#!python a` wird ausgelesen und in mit der `#!python print`-Funktion auf der Konsole ausgegeben.
 
 Wir können uns das obige Beispiel nun noch einmal im Debugger ansehen:
 

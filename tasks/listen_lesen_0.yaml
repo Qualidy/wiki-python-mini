@@ -13,7 +13,7 @@ question: |
   
   print(sprachen[0])
   print(sprachen[1])
-  print(sprachen[2])
+  print(sprachen[1+1])
   
   pos = 2
   print(sprachen[pos])
