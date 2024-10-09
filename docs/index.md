@@ -14,6 +14,10 @@ hide:
 - [:material-arrow-decision-outline: **Bedingter Code**](content/bedingter_code/bedingter_code.md)
 - [:material-rotate-left: **Codewiederholung**](content/loops/loops.md)
 - [:fontawesome-solid-table-list: **Collections**](content/collections/lists.md)
+- [:material-function-variant: **Funktionen**](content/functions/functions.md)
+- [:material-list-status: **Unit Tests**](content/unit_tests/unit_tests.md)
+- [:material-nintendo-game-boy: **Projekt**](content/project/tic_tac_toe.md)
+- [:simple-rocketdotchat: **Umgang mit KI**](content/ki/umgang.md)
 
 </div>
 
