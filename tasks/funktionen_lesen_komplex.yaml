@@ -1,0 +1,28 @@
+title: Komplexe Funktion lesen
+question: |
+  Was folgende Programm berechnet einen Preis.
+  
+  Was erscheint hier auf der Konsole, wenn das Programm ausgeführt wird?
+  
+  Erklären Sie, wie sich der Preis berechnet.
+  
+  ```{ .python .pytutor_button }
+  def calculate_discounted_price(price, weekday, age):
+      discount = 0
+
+      if weekday == "Sunday" or weekday == "Saturday":
+          discount += 0.25
+
+      if age > 65 or age < 6:
+          discount += 0.5
+
+      return price * (1 - discount)
+
+
+  base_price = 10
+  current_weekday = "Monday"
+  passager_age = 70
+
+  actual_price = calculate_discounted_price(base_price, current_weekday, passager_age)
+  print(actual_price)
+  ```
