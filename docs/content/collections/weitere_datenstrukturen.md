@@ -47,3 +47,68 @@ Bei einer Liste greift man auf die Werte immer über Zahlen zu. Bei einem Dictio
 vorher definierte Schlüssel (Keys) zugegriffen.
 
 Wir können uns also vorstellen, dass die Schubladen in unseren Schränken nicht durchnummeriert sind, sondern eine Aufschrift haben.
+
+<!-- Laden der model-viewer Bibliothek -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+<div class="grid cards" markdown>
+
+<div markdown>
+<p style="text-align:center;" markdown>**Listen**</p>
+
+---
+
+<model-viewer 
+    src="../list.glb" 
+    alt="Ein 3D-Modell"
+    camera-orbit="-15deg 80deg 2m" 
+    disable-zoom 
+    camera-controls
+    style="width: 100%; height: 300px;">
+</model-viewer>
+```{ .python }
+my_list = [5, 8, 5, 1, 0,80]
+
+print(my_list[0]) # (1)!
+
+my_list[0] = 10 # (2)!
+```
+
+1. Zugriff auf Element über den Index `#!python 0`.
+2. Überschreiben des Elements an dem Index `#!python 0`.
+
+</div>
+
+<div markdown>
+<p style="text-align:center;" markdown>**Dictionaries**</p>
+
+---
+
+<model-viewer 
+    src="../dict.glb" 
+    alt="Ein 3D-Modell"
+    camera-orbit="15deg 80deg 2m" 
+    disable-zoom 
+    camera-controls
+    style="width: 100%; height: 300px;">
+</model-viewer>
+```{ .python }
+my_dict = {
+    'Hunde': 5,
+    'Katzen': 8,
+    'Hühner': 5,
+    'Hähne': 1,
+    'Schweine': 0,
+    'Kühe': 80
+}
+
+print(my_dict['Hunde']) # (1)!
+
+my_dict['Hunde'] = 6 # (2)!
+```
+
+1. Über den Schlüssel `Hunde` wird auf das Value `#!python 5` zugegriffen.
+2. Ein neuer Value `#!python 6` wird beim Schlüssel `Hunde` gespeichert. 
+</div>
+</div>

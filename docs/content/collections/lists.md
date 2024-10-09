@@ -52,6 +52,64 @@ supremes[2] = 'Cindy'
 print(supremes)
 """) }}
 
+<!-- Laden der model-viewer Bibliothek -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+<div class="grid cards" markdown>
+
+<div markdown>
+<p style="text-align:center;" markdown>**Variablen**</p>
+
+---
+
+<model-viewer 
+    src="../var.glb" 
+    alt="Ein 3D-Modell"
+    camera-orbit="-15deg 80deg 2m" 
+    disable-zoom 
+    camera-controls
+    style="width: 100%; height: 300px;">
+</model-viewer>
+```{ .python }
+my_var = 5
+
+print(my_var) # (1)!
+
+my_var = 6 # (2)!
+```
+
+1. Zugriff direkt über den Namen der Variablen.
+2. Überschreiben der Variablen. 
+</div>
+
+<div markdown>
+<p style="text-align:center;" markdown>**Listen**</p>
+
+---
+
+<model-viewer 
+    src="../list.glb" 
+    alt="Ein 3D-Modell"
+    camera-orbit="-15deg 80deg 2m" 
+    disable-zoom 
+    camera-controls
+    style="width: 100%; height: 300px;">
+</model-viewer>
+```{ .python }
+my_list = [5, 8, 5, 1, 0,80]
+
+print(my_list[0]) # (1)!
+
+my_list[0] = 10 # (2)!
+```
+
+1. Zugriff auf Element über den Index `#!python 0`.
+2. Überschreiben des Elements an dem Index `#!python 0`.
+
+</div>
+</div>
+
 {{ task(file="tasks/listen_lesen_0.yaml") }}
 
 {{ task(file="tasks/listen_definieren_0.yaml") }}
