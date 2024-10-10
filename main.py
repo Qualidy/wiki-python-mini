@@ -34,9 +34,17 @@ def define_env(env):
         return generate_pythontutor_button(code_string, title=title)
 
 
-def create_task(title="Aufgabe", question="⚠QUESTION_TEXT_MISSING⚠", solution="", tip="", difficulty=0, difficulty_icon='🌶'):
+def create_task(title="Aufgabe",
+                question="⚠QUESTION_TEXT_MISSING⚠",
+                solution="",
+                tip="",
+                difficulty=0,
+                difficulty_icon='🌶',
+                collapsed=False):
     difficulty_icons = difficulty * difficulty_icon + (" " if difficulty else "")
-    result = f'???+ question "{difficulty_icons}{title}"\n'
+    collapsed_symbol = "" if collapsed else "+"
+
+    result = f'???{collapsed_symbol} question "{difficulty_icons}{title}"\n'
     result += add_tabs(question)
     if tip:
         result += add_tabs(f'??? info "Tipp"\n') + add_tabs(tip, 2)
