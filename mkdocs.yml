@@ -21,6 +21,10 @@ nav:
       - Was sind Funktionen: content/functions/functions.md
   - Unit Tests:
       - Was sind Unit Tests: content/unit_tests/unit_tests.md
+  - Projekt:
+      - TicTacToe: content/project/tic_tac_toe.md
+  - Umgang mit KI:
+      - Umgang mit KI: content/ki/umgang.md
 
 
 theme:

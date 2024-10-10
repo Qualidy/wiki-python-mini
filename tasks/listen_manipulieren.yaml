@@ -6,7 +6,7 @@ question: |
   primzahlen = [2, 3, 5, 9, 11, 13]
   ```
   
-  Tauschen Sie die `#!python 9` durch eine `7` aus. 
+  Tauschen Sie die `#!python 9` durch eine `#!python 7` aus. 
   
   Geben Sie dann jedes zweite Element der Liste aus. Die Konsolenausgabe ist also diese:
   

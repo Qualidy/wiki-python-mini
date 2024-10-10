@@ -165,5 +165,7 @@ q = quadrat(x)
 print(f'{x}² = {q}')""") }}
 
 TODO: Einfache Aufgabe hinzufügen
+schreibe eine Funktion, die Prüft, ob das erste und zweite und dritte Element einer Liste gleich sind.
 
 {{ task(file="tasks/funktionen_lesen_komplex.yaml") }}
+
