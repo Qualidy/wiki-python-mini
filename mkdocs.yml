@@ -4,6 +4,7 @@ site_name: Python Starter Schulung
 
 nav:
   - Python Starter Schulung: index.md
+  - Mein erstes Programm: content/installation/installation.md
   - Variablen:
       - Was sind Variablen?: content/variables/variablen.md
       - Nutzereingaben: content/variables/nutzereingaben.md

@@ -8,7 +8,7 @@ hide:
 
 {{ youtube_video("https://www.youtube.com/embed/QemlUufBaFs?si=gHpwm7yB-4l_jJk0") }}
 
-<div class="grid cards" markdown>
+<div class="grid cards fancy" markdown>
 
 - [:fontawesome-solid-boxes-stacked: **Variablen**](content/variables/variablen.md)
 - [:material-arrow-decision-outline: **Bedingter Code**](content/bedingter_code/bedingter_code.md)
