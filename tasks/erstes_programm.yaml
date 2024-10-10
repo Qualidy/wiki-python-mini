@@ -4,9 +4,9 @@ question: |
   
   * Erstelle einen Leeren Ordner "python-schulung".
   * Starte Visual Studio Code.
-  * Gehe auf "File" > "Open Folder" und wähle den von dir erstellten Ordner aus. (6)
+  * Gehe auf "File" > "Open Folder" und wähle den von dir erstellten Ordner aus. (1)
   * Bestätige, dass du dem Projekt vertraust. (5)
-  * Erstelle eine neue Python-Datei namens "hallo.py", indem du auf das :material-file-plus: neben dem Ordnernamen klickst. (1)
+  * Erstelle eine neue Python-Datei namens "hallo.py", indem du auf das :material-file-plus: neben dem Ordnernamen klickst. (2)
   * Schreibe `print("Hallo Welt")` in die Datei.
   * Aktiviere das automtische Speichern, indem du auf "File" > "Auto Save" klickst. (3)
   * Klicke auf das die :material-play-outline:-Taste oben rechts, um die Datei auszuführen. (4)
@@ -20,5 +20,4 @@ question: |
   3. ![Automatisches Speichern aktivieren](autosave.png)
   4. ![Python Datei starten](start_python.png)
   5. ![Vertrauen bestätigen](vertrauen_bestätigen.png)
-  6. ![Ordner wird in VSCode ausgewählt](ordner_auswählen.png)
 question_video: https://www.youtube.com/embed/_i5uqQ-y2yg?si=n2su8czNV8qzc77I
