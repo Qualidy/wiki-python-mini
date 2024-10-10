@@ -3,26 +3,27 @@ question: |
   Sagen Sie voraus, was auf der Konsole ausgegeben wird, wenn das Programm ausgeführt wird.
   
   ```python
-  a = 3
-  print(a)
+  preis = 3
+  print(preis)
   
-  a = a + 4
-  print(a)
+  preis = preis + 4
+  print(preis)
   
-  print(a + 5)
+  print(preis + 5)
   
-  print(a)
+  print(preis)
   ```
 tip: Der Inhalt einer Variablen wird nur dann neu befüllt, wenn auch der Zuordnungsoperator `#!python =` aufgerufen wird.
 solution: |
   ``` { .python .pytutor_button }
-  a = 3
-  print(a) # 3
+  preis = 3
+  print(preis) # 3
   
-  a = a + 4
-  print(a) # 7
+  preis = preis + 4
+  print(preis) # 7
   
-  print(a + 5) # 12
+  print(preis + 5) # 12
   
-  print(a) # 7
+  print(preis) # 7
   ```
+solution_video: https://www.youtube.com/embed/iZFQVJP875k?si=ra2JP6QMAPnarZO0

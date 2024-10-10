@@ -1,5 +1,7 @@
 # Installation
 
+{{ youtube_video("https://www.youtube.com/embed/chPCpYNJe_Q?si=frU_Z_VwSGnPWEPF") }}
+
 Um mit dem Programmieren loslegen zu können müssen wir zunächst Python und eine Entwicklungsumgebung installieren:
 
 <div class="grid cards" markdown>

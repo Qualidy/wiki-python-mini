@@ -1,5 +1,7 @@
 # Variablen
 
+{{ youtube_video("https://www.youtube.com/embed/Idbd0z0PkIg?si=3jWvVpqaqB5BvJO4", title="Einführung in Variablen") }}
+
 In Python können wir **Informationen in Variablen speichern**.
 
 Man kann sich so eine Variable vorstellen, wie einen beschrifteten Schuhkarton in einem Schrank. 
