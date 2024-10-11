@@ -12,3 +12,4 @@ solution: |
   vorname = input('Wie heißt du?')
   alter = input('Wie alt bist du?')
   ```
+solution_video: https://www.youtube.com/embed/RaIQUkbJipA?si=rCuevE4qG3eJYbHE

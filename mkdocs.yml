@@ -7,8 +7,8 @@ nav:
   - Mein erstes Programm: content/installation/installation.md
   - Variablen:
       - Was sind Variablen?: content/variables/variablen.md
-      - Nutzereingaben: content/variables/nutzereingaben.md
       - Datentypen: content/variables/datentypen.md
+      - Nutzereingaben: content/variables/nutzereingaben.md
   - Bedingter Code:
       - Bedingter Code: content/bedingter_code/bedingter_code.md
       - Bedingungen: content/bedingter_code/bedingung.md

@@ -28,3 +28,6 @@ solution: |
   * Nichtmitglieder zahlen 3 €. Hat der Name kein "h" oder "H", verdoppelt sich der Preis.
   
   * Erweitere die Bedingung: `if not "h" in name and not "H" in name and not "m" in name and not "M" in name:`
+  
+  * Alternativ: `if not ("h" in name or "H" in name or "m" in name or "M" in name):`
+solution_video: https://www.youtube.com/embed/1rkQCk-TT5o?si=EHELY9ctti66JZeC

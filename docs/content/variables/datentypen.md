@@ -1,5 +1,7 @@
 # Datentypen
 
+{{ youtube_video("https://www.youtube.com/embed/gEy1XRQ9mC4?si=1OuIdziMzDnSt3Pz") }}
+
 Die Daten, die in einer Variable gespeichert sind, haben einen Typ. In Python ist dies wichtig, um zu wissen,
 was man mit den Daten, eigentlich tun kann. Zahlen zum Beispiel kann man multiplizieren und addieren.
 Zeichenketten kann man  miteinander zu längeren Zeichenketten verbinden (1).

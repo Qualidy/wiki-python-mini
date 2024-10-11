@@ -1,4 +1,4 @@
-title: Summen bilden
+title: Summe von Eingaben bilden
 question: |
   Schreibe ein Programm, dass den Nutzer nach einer Zahl fragt.
   Das Programm hat intern in einer Variablen namens `summe` die Summe 
@@ -41,3 +41,4 @@ solution: |
     eingabe = int(input("Gib eine Zahl ein: "))
     summe = summe + eingabe
   ```
+solution_video: https://www.youtube.com/embed/KIdszhY_6EE?si=OrAqA9R-RltHbGFx

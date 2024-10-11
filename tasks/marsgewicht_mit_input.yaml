@@ -1,10 +1,10 @@
-title: Marsgewicht
+title: Marsgewicht mit Eingabe
 question: |
   Bei diesem Programm wird das Gewicht auf dem Mars berechnet.
   
   ```python
   gewicht = 65
-  mars_faktor = 0.37
+  mars_faktor = 0.38
   mars_gewicht = gewicht * mars_faktor
   print(f'Dein Marsgewicht: {mars_gewicht}') # (1)!
   ```
@@ -21,3 +21,4 @@ solution: |
   mars_gewicht = gewicht * mars_faktor
   print(f'Dein Marsgewicht: {mars_gewicht}')
   ```
+solution_video: https://www.youtube.com/embed/jEUnzeSH9Kc?si=t75pzNlE4M4vgEQ3

@@ -1,4 +1,4 @@
-title: Marsgewicht
+title: BMI berechnen
 question: |
   Erstellen Sie das folgenden Programm, dass den BMI einer Person berechnet.
   
@@ -30,3 +30,4 @@ solution: |
   
   print(f"Dein BMI ist {bmi}")
   ```
+solution_video: https://www.youtube.com/embed/SHyM_Z1KC6s?si=d2ZK6PlmSnnVlMGD

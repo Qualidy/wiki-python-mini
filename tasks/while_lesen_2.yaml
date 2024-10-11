@@ -1,4 +1,4 @@
-title: Es hört nicht auf...
+title: Variable Durchlaufzahl
 question: |
   Ersetzen Sie die `...` mit den verschiedenen Operatoren `+`, `-`, `*` und `/`.
   
@@ -80,8 +80,13 @@ solution: |
       0.00030517578125
       0.000152587890625
       ...
+      5e-323
+      2.5e-323
+      1e-323
+      5e-324
+      Die Schleife wurde 1078-mal durchlaufen.
       ```
       
-      und so weiter.
-      
-      Die Schleife bricht hier nicht ab. Wir sind in einer **Endlosschleife**.
+      Die Schleife bricht ab, als die kleinsten `float`-Zahlen durch `2` geteilt wurde und `0` errechnet wurde (was mathematsich nicht korrekt ist).
+      Könnte Python Kommazahlen mathematisch korrekt berechnen würden wir hier in eine Endlosschleife geraten.
+solution_video: https://www.youtube.com/embed/offcBIwL7jY?si=QFN_eQvBHUOCYggZ

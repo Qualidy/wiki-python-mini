@@ -1,11 +1,18 @@
 # Codewiederholung
 
+{{ youtube_video("https://www.youtube.com/embed/RVo03eT3U_A?si=I-5BEoTmDDKH1Nyc") }}
+
+<div class="grid" markdown>
+<div markdown>
+
 Mit den `if`-Blöcken haben wir kennengelernt, wie man einen Codeblock nur unter bestimmten Bedingungen durchführt.
 
 Wir wollen nun die `while`-Blöcke anschauen. Diese sind so ähnlich wie `if`-Blöcke, den auch sie prüfen eine
 Bedingung und führen den eingerückten Code nur aus, wenn die Bedinung `True` ist. ABER: Bei `while` wird
 nach jeder Durchführung des eingerückten Codes, ob die Bedingung immernoch erfüllt ist! Und wenn ja, dann
 wird der eingerückte Codeblock NOCH MAL durchgeführt. Und das immerwieder!
+
+
 
 ```python
 zahl = 1 # (1)!
@@ -22,12 +29,8 @@ print(f'Finaler Wert: {zahl}.') # (5)!
    **Achtung: Danach geht es in Zeile 2 weiter!**
 5. Abschließend wird der finale Wert von `zahl` ausgegeben.
 
-{{ python_tutor("""zahl = 2
-while zahl < 100:
-    print(zahl)
-    zahl = zahl * 2
-print(f'Finaler Wert: {zahl}.')
-""") }}
+</div>
+<div markdown>
 
 ``` mermaid
 stateDiagram-v2
@@ -41,6 +44,17 @@ stateDiagram-v2
     I --> B : Springe zurück
     B --> F : False
 ```
+</div>
+</div>
+
+{{ python_tutor("""zahl = 2
+while zahl < 100:
+    print(zahl)
+    zahl = zahl * 2
+print(f'Finaler Wert: {zahl}.')
+""") }}
+
+
 
 {{ task(file="tasks/while_lesen_1.yaml") }}
 

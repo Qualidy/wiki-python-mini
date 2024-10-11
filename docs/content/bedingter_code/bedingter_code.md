@@ -1,5 +1,7 @@
 # Bedingter Code
 
+{{ youtube_video("https://www.youtube.com/embed/EZMzMmsG-tI?si=rZnfu1cHfYWT7ONx") }}
+
 Mit dem `if` Keyword und Einrückungen kann man festlegen, dass Code nur unter bestimmten Bedingungen ausgeführt wird.
 
 ``` { .python }

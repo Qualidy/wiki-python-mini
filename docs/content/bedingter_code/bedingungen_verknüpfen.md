@@ -1,5 +1,7 @@
 # Bedingungen verknüpfen
 
+{{ youtube_video("https://www.youtube.com/embed/RwszZ3Ca25M?si=ojrftjdkgRoLkHST") }}
+
 Wir können mehrere Bedingungen auch miteinander verknüpfen.
 
 | Operator | Beschreibung                                                   | Beispiel           |
