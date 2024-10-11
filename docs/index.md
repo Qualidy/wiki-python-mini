@@ -6,8 +6,6 @@ hide:
 
 # Python Einsteiger Schulung
 
-{{ youtube_video("https://www.youtube.com/embed/QemlUufBaFs?si=gHpwm7yB-4l_jJk0") }}
-
 <div class="grid cards fancy" markdown>
 
 - [:simple-python: **Installation**](content/installation/installation.md)
@@ -27,4 +25,5 @@ hide:
     ++p++ oder ++comma++ : Zur vorherigen Seite gehen (**P**revious)
 
     ++n++ oder ++period++ : Zur nächsten Seite gehen (**N**ext)
- 
+
+![](assets/Logo_Qualidy_cmyk.svg)

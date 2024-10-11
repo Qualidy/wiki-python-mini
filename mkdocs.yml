@@ -1,20 +1,19 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
-site_name: Python Starter Schulung
+site_name: Python Einsteiger Schulung
 
 nav:
-  - Python Starter Schulung: index.md
-  - Mein erstes Programm: content/installation/installation.md
+  - Übersicht: index.md
+  - Installation: content/installation/installation.md
   - Variablen:
       - Was sind Variablen?: content/variables/variablen.md
       - Datentypen: content/variables/datentypen.md
       - Nutzereingaben: content/variables/nutzereingaben.md
   - Bedingter Code:
-      - Bedingter Code: content/bedingter_code/bedingter_code.md
+      - if-Blöcke: content/bedingter_code/bedingter_code.md
       - Bedingungen: content/bedingter_code/bedingung.md
       - Bedingungen verknüpfen: content/bedingter_code/bedingungen_verknüpfen.md
-  - Codewiederholung:
-      - While-Schleife: content/loops/loops.md
+  - Codewiederholung: content/loops/loops.md
   - Collections:
       - Listen: content/collections/lists.md
       - Listen erweitern: content/collections/lists_append.md
@@ -23,12 +22,9 @@ nav:
       - Funktionen definieren: content/functions/functions.md
       - Parameter: content/functions/functions_with_parameters.md
       - Rückgabewerte: content/functions/functions_with_returns.md
-  - Unit Tests:
-      - Was sind Unit Tests: content/unit_tests/unit_tests.md
-  - Projekt:
-      - TicTacToe: content/project/tic_tac_toe.md
-  - Umgang mit KI:
-      - Umgang mit KI: content/ki/umgang.md
+  - Unit Tests: content/unit_tests/unit_tests.md
+  - Projekt TicTacToe: content/project/tic_tac_toe.md
+  - Umgang mit KI: content/ki/umgang.md
 
 
 theme:

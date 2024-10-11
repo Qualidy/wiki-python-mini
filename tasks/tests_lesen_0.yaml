@@ -37,7 +37,7 @@ question: |
   
   Alle seine Tests funktionieren.
   
-  Jürgen hat nun kennengelernt, wie man [Bedingungen mit `or`, `and` und `not` miteinander verknüpft](/content/bedingter_code/bedingungen_verknüpfen) und 
+  Jürgen hat nun kennengelernt, wie man Bedingungen mit `or`, `and` und `not` miteinander verknüpft und 
   möchte nun seine Funktion etwas schlanker neu Programmieren.
   
   Passe die Funktion von Jürgen an und achte dabei darauf, dass die Tests immernoch funktionieren!
