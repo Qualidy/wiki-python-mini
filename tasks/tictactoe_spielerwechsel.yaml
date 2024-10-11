@@ -27,3 +27,4 @@ solution: |
     print(als_quadrat(spielbrett))
     print(f"Herzlichen Glückwunsch!")
   ```
+solution_video: https://www.youtube.com/embed/1sWNBpwFT80?si=WBguQvqMHmEqyfci

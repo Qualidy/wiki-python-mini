@@ -1,5 +1,7 @@
 # Projekt: Tic Tac Toe
 
+{{ youtube_video("https://www.youtube.com/embed/LORQ6tDpgZw?si=Ox8mtY-wzE8A879E") }}
+
 In diesem Abschnitt werden wir unser bisheriges Können in einem kleinen Projekt zusammenstellen. Wir wollen das Spiel
 `TicTacToe` implementieren.
 
@@ -42,7 +44,7 @@ Herzlichen Glückwunsch!
 
 Wir haben bereits etwas Code vorgegeben. Dieser hat einige Lücken, die wir füllen müssen.
 
-```python hl_lines="15 21 24 27"
+```python hl_lines="15 22 25 28"
 def gameloop(): # (1)!
     spielbrett = [0, 1, 2, 3, 4, 5, 6, 7, 8] # (14)!
 
@@ -108,3 +110,5 @@ Wenn wir alles richtig gemacht haben, kann so unsere Lösung aussehen:
     ``` python hl_lines="18-20 27 31-38 42"
     --8<-- "goals/tictactoe.py"
     ```
+
+{{ youtube_video("https://www.youtube.com/embed/hYzRuiJe2yU?si=sea2B_bU1wx9yMz9") }}

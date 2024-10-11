@@ -1,5 +1,7 @@
 # Set
 
+{{ youtube_video("https://www.youtube.com/embed/ypJ-QQQKY2M?si=l69wzgRKPcd69_l0") }}
+
 Sets (deutsch: _Mengen_ ) sind listen sehr ähnlich, sie haben aber zwei für uns wichtige unterschiede:
 
 * Jedes Element in der Liste darf nur ein mal auftauchen.
@@ -24,6 +26,8 @@ print(my_set)""") }}
 
 # Tupel
 
+{{ youtube_video("https://www.youtube.com/embed/YAP_SKX6VMA?si=Hajpf0Xb9FCH5hht") }}
+
 Tupel sind fast identisch zu listen. Hier sind die für uns entscheidenden Unterschiede:
 
 * Tupel werden mit runden `()` statt mit eckigen Klammern `[]` definiert.
@@ -41,6 +45,8 @@ my_tuple[0] = 4 # (3)!
 3. Hier kommt es bei der Ausführung zu einem Fehler, denn der Inhalt eines Tupels kann im Nachhinein nicht mehr geändert werden. Auch Methoden wie `append` exitieren nicht bei Tupeln.
 
 # Dictionary
+
+{{ youtube_video("https://www.youtube.com/embed/m2hu4iQwHBY?si=uJIu3hgW7RSkJjcX") }}
 
 Dictionaries sind eine häufig verwendete Datenstruktur, die man als eine Liste mit speziellen Zugriffsmöglichkeiten betrachten kann.
 Bei einer Liste greift man auf die Werte immer über Zahlen zu. Bei einem Dictionary werden auf die Werte (Values) über 

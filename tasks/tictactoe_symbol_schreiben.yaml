@@ -47,3 +47,4 @@ solution: |
   def symbol_schreiben(spielbrett, position, symbol):
     spielbrett[position] = symbol
   ```
+solution_video: https://www.youtube.com/embed/zBFt2HOFDAw?si=bV0isnPBSSX3bqAv

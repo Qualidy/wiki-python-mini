@@ -1,6 +1,6 @@
-title: Listen erstellen
+title: Listen fortlaufend erweitern
 question: |
-  Schreibe ein Programm, dass den Nutzer nach einer Zahl fragt.
+  Schreibe ein Programm, dass den Nutzer wiederholt nach einer Zahl fragt.
   Das Programm hat intern eine Liste namens `eingaben`, in der alle bisher eingegebenen Zahlen gespeichert werden.
   Es soll vor der Eingabe immer die bisher gespeicherten Elemente eingeblendet werden.
   
@@ -35,9 +35,10 @@ tip: |
       ```
 solution: |
   ```{ .python .pytutor_button }
-  einfaben = []
+  eingaben = []
   while True:
-    print(f"Bisherige Zahlen: {summe}")
+    print(f"Bisherige Zahlen: {eingaben}")
     eingabe = int(input("Gib eine Zahl ein: "))
     eingaben.append(eingabe)
   ```
+solution_video: https://www.youtube.com/embed/xzoBk3Y2pn4?si=KzuLfLUPg0pcx8rN

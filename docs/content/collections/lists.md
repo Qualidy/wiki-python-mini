@@ -1,10 +1,10 @@
-# Sammlungen
+# Listen
+
+{{ youtube_video("https://www.youtube.com/embed/lyhlE_L7Cgg?si=ldzvXK78KMxV3eVY") }}
 
 Derzeit können wir in einer Variablen genau einen Wert speichern.
 
 Wir werden nun Möglichkeiten kennenlernen, wie wir in einer Variable eine große Menge von Daten speichern können.
-
-## Listen
 
 Die wichtigste Möglichkeit zum Speichern großer Datenmengen in einer Variable sind **Listen**.
 
@@ -118,25 +118,3 @@ my_list[0] = 10 # (2)!
 
 {{ task(file="tasks/listen_manipulieren.yaml") }}
 
-
-Zu einer Liste können neue Elemente mit der Methode `append` hinzugefügt werden. Das sieht dann wie folgt aus:
-
-{{ python_tutor("""fragezeichen = ['Justus']
-fragezeichen.append('Peter')
-fragezeichen.append('Bob')
-print(fragezeichen)
-""") }}
-
-{{ task(file="tasks/listen_lesen_1.yaml") }}
-
-{{ task(file="tasks/listen_index_fehler.yaml") }}
-
-{{ task(file="tasks/dauernder_input_listen.yaml") }}
-
-{{ task(file="tasks/listen_input_manipulieren.yaml") }}
-
-
-Aufgaben for:
-lesen
-addieren lesen
-multiplizieren programmieren

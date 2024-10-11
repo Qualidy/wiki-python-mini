@@ -17,9 +17,12 @@ nav:
       - While-Schleife: content/loops/loops.md
   - Collections:
       - Listen: content/collections/lists.md
+      - Listen erweitern: content/collections/lists_append.md
       - Weiter Datenstrukturen: content/collections/weitere_datenstrukturen.md
   - Funktionen:
-      - Was sind Funktionen: content/functions/functions.md
+      - Funktionen definieren: content/functions/functions.md
+      - Parameter: content/functions/functions_with_parameters.md
+      - Rückgabewerte: content/functions/functions_with_returns.md
   - Unit Tests:
       - Was sind Unit Tests: content/unit_tests/unit_tests.md
   - Projekt:

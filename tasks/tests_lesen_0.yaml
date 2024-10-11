@@ -4,13 +4,13 @@ question: |
   
   ```python
   def berechne_preis(alter, mitglied):
-    if mitglied:
-      return 0
-    if alter < 4:
-      return 0
-    if alter > 60:
-      return 0
-    return 2    
+      if mitglied:
+          return 0
+      if alter < 4:
+          return 0
+      if alter > 60:
+          return 0
+      return 2    
   ```
   
   Jürgen hat auch Tests geschrieben, um sicherzustellen, dass Sein Code funktioniert:
@@ -67,3 +67,4 @@ solution: |
       return 0
     return 2    
   ```
+solution_video: https://www.youtube.com/embed/l11lhOmNMrM?si=NMXSa2vDAhn26tbE

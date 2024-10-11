@@ -7,22 +7,33 @@ question: |
   Erklären Sie, wie sich der Preis berechnet.
   
   ```{ .python .pytutor_button }
-  def calculate_discounted_price(price, weekday, age):
-      discount = 0
+  def berechne_rabbatierten_preis(preis, wochentag, alter):
+      rabatt = 0
 
-      if weekday == "Sunday" or weekday == "Saturday":
-          discount += 0.25
+      if wochentag == "Sonntag" or wochentag == "Samstag":
+          rabatt = rabatt + 0.25
 
-      if age > 65 or age < 6:
-          discount += 0.5
+      if alter > 65 or alter < 6:
+          rabatt = rabatt + 0.5
 
-      return price * (1 - discount)
+      return preis * (1 - rabatt)
 
 
-  base_price = 10
-  current_weekday = "Monday"
-  passager_age = 70
+  basis_preis = 10
+  heute = "Montag"
+  alter_kunde = 70
 
-  actual_price = calculate_discounted_price(base_price, current_weekday, passager_age)
-  print(actual_price)
+  end_preis = berechne_rabbatierten_preis(basis_preis, heute, alter_kunde)
+  print(end_preis)
   ```
+solution: |
+  Am Wochenende gibt es einen Rabatt von 25% und für Kinder bis einschließlich fünf Jahren und Erwachsene ab 66 Jahren
+  einen Rabatt zusätzlichen Rabatt von 50%.
+  
+  Konsolenausgabe:
+  
+  ```
+  5.0
+  ```
+
+solution_video: https://www.youtube.com/embed/lHdrsF0DHSw?si=4n1Q3sQbFlz3CKF3

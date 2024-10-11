@@ -1,4 +1,6 @@
-# Funktionen
+# Funktionen definieren
+
+{{ youtube_video("https://www.youtube.com/embed/OL8OdEm6_hU?si=KoqMvNECuRqKv-6w") }}
 
 Bisher sind alle unsere Codebeispiel so geschrieben, dass dieser einmalig ausgeführt 
 wird und dann nicht mehr gebraucht wird. Das ist normalerweise nicht der Fall.
@@ -31,8 +33,6 @@ graph TD;
 
 {{ task(file="tasks/funktionen_identifizieren_1.yaml") }}
 
-## Eigene Funktionen definieren
-
 Im folgenden Code wird unsere erste eigene Funktion `hoch()` *def*iniert und diese dann drei mal aufgerufen wird:
 
 ```{ .python hl_lines="1-3"}
@@ -62,110 +62,4 @@ hoch()""") }}
 {{ task(file="tasks/funktionen_ablauf_beschreiben_0.yaml") }}
 
 
-
-TODO: Hier leichte verständnisaufgaben rein
-
-* def einsetezen
-* voraussagen, was passieren wird
-
-## Funktionen mit Parametern
-
-Über Parameter können wir dafür sorgen, dass Funktionen nicht immer exakt das Gleiche tun, sondern, eben abhängig von 
-den übergebenen Parametern, in ihren Ergebnissen variieren, obwohl die Rechenvorschriften gleich sind.
-
-Im Bild gesprochen: Ein Rezept besteht einerseits aus einer Liste von Zubereitungsschritten (Funktionskörper)
-aber auch aus einer Auflistung der Zutaten (Parameter). Nun kann man zwei verschiedene Kuchen mit demselben Rezept 
-backen, indem man die Zutaten variiert. So macht es z.B. einen Unterschied welche konkrete Apfelsorte man in einem
-Apfelkuchen verwendet.
-
-Definieren wir Parameter in einer Funktion, so müssen wir diese beim Funktionsaufruf mit Klammern angeben:
-
-<div class="grid" markdown>
-<div markdown>
-
-```python
-def print_greeting(name, age): # (1)!
-    print(f"Hallo {name}!") # (2)!
-    if age > 65: # (3)!
-        print(f"Geht es?") # (4)! 
-
-print_greeting("Jörg", 68) # (5)!
-print_greeting("Kevin", 20) # (6)!
-```
-
-1. Bei der Funktionsdefinition werden alle Parameter mit `,` getrennt in die runden Klammern geschrieben.
-2. Der erste übergebene Parameter wird hier in der Konsolenausgabe verwendet.
-3. Der zweite übergebene Parameter wird hier in der Bedingung benutzt.
-4. Auch diese zwei Mal eingerückte Zeile gehört noch zum Funktionsrumpf.
-5. Die Funktion wird hier aufgerufen. Die Argumente sind `Jörg` und `#!pyhton 68`, welche für die Paramter `name` und `age` eingesetzt werden.
-6. Die Funktion wird hier erneut aufgerufen, aber mit anderen Argumenten. Dies führt zu anderen Konsolenausgaben als bei der ersten Durchführung. 
-
-</div>
-
-<div markdown>
-```mermaid
-graph TD;
-    P1(["age"]) --> F[print_greeting]
-    P2(["name"]) --> F
-```
-</div>
-</div>
-
-{{ python_tutor("""def print_greeting(name, age):
-    print(f'Hallo {name}!')
-    if age > 65:
-        print(f'Geht es?') 
-
-print_greeting('Jörg', 68)
-print_greeting('Kevin', 20)""") }}
-
-TODO: Aufgaben
-
-## Rückgabewerte
-
-Nun ist noch wichtig zu erwähnen, dass Funktionen nicht nur verarbeiten, sondern auch ein
-Ergebnis am Ende ihrer Durchführung zurückgeben können. Der Wert der zurückgegeben werden soll steht in einer
-Zeile mit einem vorangehenden `return`.
-
-<div class="grid" markdown>
-<div markdown>
-
-```python
-def quadrat(zahl): # (1)!
-    return zahl * zahl # (2)!
-
-x = 4 # (3)!
-q = quadrat(x) # (4)!
-
-print(f"{x}² = {q}") # (5)!
-```
-
-1. Beim Funktionskopf sagen wir, dass es einen Paramter gibt. Dass es eine Rückgabe geben wird, lässt sich hier _nicht_ erkennen.
-2. Der Parameter `zahl` wird mit sich selbst multipliziert und das Ergebnis dann **zurückgegeben**, da ein `return` am anfang der eingerückten Zeile steht. 
-3. Wir speichern in der Variablen `x` das Argument.
-4. Wir übergeben `x` an die Funktion und speichern die Rückgabe in der Variablen `q`.
-5. Wir geben die Ergebnisse fein säuberlich auf der Konsole aus.
-
-</div>
-
-<div markdown>
-```mermaid
-graph TD;
-    P1([zahl]) --> F[quadrat] --> R([Ergebnis])
-```
-</div>
-</div>
-
-{{ python_tutor("""def quadrat(zahl):
-    return zahl * zahl
-
-x = 4
-q = quadrat(x)
-
-print(f'{x}² = {q}')""") }}
-
-TODO: Einfache Aufgabe hinzufügen
-schreibe eine Funktion, die Prüft, ob das erste und zweite und dritte Element einer Liste gleich sind.
-
-{{ task(file="tasks/funktionen_lesen_komplex.yaml") }}
 

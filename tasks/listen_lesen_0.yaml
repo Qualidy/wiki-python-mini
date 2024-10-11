@@ -3,31 +3,32 @@ question: |
   Was erscheint hier auf der Konsole?
   
   ```{ .python .pytutor_button }
-  sprachen = ['Python', 'C++', 'Java']
+  produkte = ['Milch', 'Butter', 'Käse']
   
-  print(sprachen[2])
-  print(sprachen[1])
-  print(sprachen[0])
+  print(produkte[2])
+  print(produkte[1])
+  print(produkte[0])
   
-  sprachen[1] = 'Haskell'
+  produkte[1] = 'Magarine'
   
-  print(sprachen[0])
-  print(sprachen[1])
-  print(sprachen[1+1])
+  print(produkte[0])
+  print(produkte[1])
+  print(produkte[1+1])
   
   pos = 2
-  print(sprachen[pos])
+  print(produkte[pos])
   ```
 
 solution: |
   Konsolenausgabe
   
   ```
-  Java
-  C++
-  Python
-  Python
-  Haskell
-  Java
-  Java
+  Käse
+  Butter
+  Milch
+  Milch
+  Magarine
+  Käse
+  Käse
   ```
+solution_video: https://www.youtube.com/embed/GEimrVK6Cgk?si=k1SbKJIzhOk

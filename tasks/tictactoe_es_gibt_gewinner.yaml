@@ -116,3 +116,4 @@ solution: |
             or spielbrett[0] == spielbrett[4] == spielbrett[8]
             or spielbrett[2] == spielbrett[4] == spielbrett[6])
   ```
+solution_video: https://www.youtube.com/embed/TDYXZY49cBA?si=kfrH-gYu4_c9nSiS

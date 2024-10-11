@@ -55,3 +55,4 @@ solution: |
   def als_quadrat(spielbrett):
     return f"{spielbrett[0]} | {spielbrett[1]} | {spielbrett[2]}\n{spielbrett[3]} | {spielbrett[4]} | {spielbrett[5]}\n{spielbrett[6]} | {spielbrett[7]} | {spielbrett[8]}"
   ```
+solution_video: https://www.youtube.com/embed/-HLU3RETWS8?si=vaD2qmteDn9p-4S1
