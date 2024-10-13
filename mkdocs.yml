@@ -17,6 +17,7 @@ nav:
   - Collections:
       - Listen: content/collections/lists.md
       - Listen erweitern: content/collections/lists_append.md
+      - Listen durchlaufen: content/collections/for_loop.md
       - Weiter Datenstrukturen: content/collections/weitere_datenstrukturen.md
   - Funktionen:
       - Funktionen definieren: content/functions/functions.md
