@@ -18,7 +18,7 @@ solution: |
   ```{ .python .pytutor_button }
   mitarbeiter = ['Anton', 'Bernd', 'Clara', 'Dennis']
   
-  mitarbeiter[3] = 'Emil'
+  mitarbeiter[1] = 'Emil'
   
   print(mitarbeiter[1])
   print(mitarbeiter[3])
