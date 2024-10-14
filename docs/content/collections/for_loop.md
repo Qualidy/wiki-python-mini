@@ -59,3 +59,5 @@ for produkt in produkte:
 {{ task("tasks/for_loop_schreiben_0.yaml") }}
 
 {{ task("tasks/for_loop_schreiben_1.yaml") }}
+
+{{ task("tasks/for_loop_schreiben_2.yaml") }}
