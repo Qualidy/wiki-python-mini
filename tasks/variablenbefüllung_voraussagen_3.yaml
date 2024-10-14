@@ -7,7 +7,7 @@ question: |
   b = 2
   c = a + b
   b = a
-  a = a + b * c
+  a = a - b * c
   
   print(a)
   print(b)
