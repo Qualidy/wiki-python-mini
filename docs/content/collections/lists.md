@@ -110,6 +110,14 @@ my_list[0] = 10 # (2)!
 </div>
 </div>
 
+!!! bug "Listen **niemals** `list` nennen!"
+
+    Der Variablenname einer Liste (oder sonst irgendeines Objektes), darf **niemals** `list` heißen.
+
+    Dies würde zu einer Überschreibung des `list`-Konstruktors führen und ggf. den Rest des Pythonprogramms zerstören :fontawesome-solid-skull:.
+
+    `list` isthier keine Ausnahme. [Hier findest du noch eine Liste aller Build-In-Functions](https://docs.python.org/3/library/functions.html), die man nicht als Variablennamen verwenden soll.
+
 {{ task(file="tasks/listen_lesen_0.yaml") }}
 
 {{ task(file="tasks/listen_definieren_0.yaml") }}

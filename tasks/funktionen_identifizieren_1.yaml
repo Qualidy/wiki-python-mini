@@ -5,4 +5,4 @@ tip: |
   * Wie wurden Inhalte auf der Konsole ausgegeben?
   * Wie konnten Nutzereingaben vorgenommen werden?
 solution: |
-  Wir haben bereits die in Python eingebauten Funktionen `print()` und `input()` genutzt.
+  Wir haben bereits die in Python eingebauten Funktionen `print()` und `input()` genutzt. Auch `int()` und `float()` sind Funktionen.
