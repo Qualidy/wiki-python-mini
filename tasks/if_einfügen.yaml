@@ -8,19 +8,19 @@ question: |
   alter = int(input("Wie alt bist du?"))
   
   ... alter < 18:
-    print("Dieser Film ist nichts für dich!")
+      print("Dieser Film ist nichts für dich!")
   
   ... alter >= 18:
-    print("Du darfst rein.")
+      print("Du darfst rein.")
   ```
 solution: |
   ```python
   alter = int(input("Wie alt bist du?"))
 
   if alter < 18:
-    print("Dieser Film ist nichts für dich!")
+      print("Dieser Film ist nichts für dich!")
   
   if alter >= 18:
-    print("Du darfst rein")
+      print("Du darfst rein")
   ```
 solution_video: https://www.youtube.com/embed/yUNT8Ksq-3A?si=sJd3b6sihHzqltS3

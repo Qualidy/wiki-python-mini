@@ -11,10 +11,10 @@ question: |
   alter = ...
   
   if alter >= 65:
-    preis = preis - 2
+      preis = preis - 2
   
   if alter < 7:
-    preis = 0.0
+      preis = 0.0
   
   print(f"Mit {alter} Jahren zahlst du: {preis} €.")
   ```

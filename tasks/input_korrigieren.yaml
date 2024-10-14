@@ -6,7 +6,7 @@ question: |
   ```python
   alter = int(input("Wie alt bist du?"))
   if ...:
-    ...
+      ...
   
   print(f"Du bist {alter} Jahre alt.")
   ```
@@ -16,7 +16,7 @@ solution: |
   ``` { .python .pytutor_button }
   alter = int(input("Wie alt bist du?"))
   if alter < 0:
-    alter = 0
+      alter = 0
   
   print(f"Du bist {alter} Jahre alt.")
   ```

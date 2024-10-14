@@ -8,28 +8,28 @@ question: |
   
   
   def symbol_schreiben(spilbrett, position, symbol):
-    ...
+      ...
   
   
   class TestSymbolSchreiben(unittest.TestCase):
-    def test_symbol_schreiben_0(self): # (1)!
-        spielbrett = [0, 1, 2, 3, 4, 5, 6, 7, 8] # (2)!
-        symbol = "x" # (3)!
-        position = 4 # (4)!
-        erwartet = [0, 1, 2, 3, "x", 5, 6, 7, 8] # (5)!
-        symbol_schreiben(spielbrett, position, symbol) # (6)!
-        self.assertEqual(spielbrett, erwartet) # (7)!
-
-    def test_symbol_schreiben_1(self):
-        spielbrett = ["x", "o", 2, "x", 4, 5, 6, 7, "o"]
-        symbol = "o"
-        position = 2
-        erwartet = ["x", "o", "o", "x", 4, 5, 6, 7, "o"]
-        symbol_schreiben(spielbrett, position, symbol)
-        self.assertEqual(spielbrett, erwartet)  
+      def test_symbol_schreiben_0(self): # (1)!
+          spielbrett = [0, 1, 2, 3, 4, 5, 6, 7, 8] # (2)!
+          symbol = "x" # (3)!
+          position = 4 # (4)!
+          erwartet = [0, 1, 2, 3, "x", 5, 6, 7, 8] # (5)!
+          symbol_schreiben(spielbrett, position, symbol) # (6)!
+          self.assertEqual(spielbrett, erwartet) # (7)!
   
+      def test_symbol_schreiben_1(self):
+          spielbrett = ["x", "o", 2, "x", 4, 5, 6, 7, "o"]
+          symbol = "o"
+          position = 2
+          erwartet = ["x", "o", "o", "x", 4, 5, 6, 7, "o"]
+          symbol_schreiben(spielbrett, position, symbol)
+          self.assertEqual(spielbrett, erwartet)  
+    
   if __name__ == '__main__':
-    unittest.main()
+      unittest.main()
   ```
   
   1. Der erste Test wird definiert.
@@ -45,6 +45,6 @@ tip: |
 solution: |
   ```python
   def symbol_schreiben(spielbrett, position, symbol):
-    spielbrett[position] = symbol
+      spielbrett[position] = symbol
   ```
 solution_video: https://www.youtube.com/embed/zBFt2HOFDAw?si=bV0isnPBSSX3bqAv

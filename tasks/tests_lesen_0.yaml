@@ -47,9 +47,9 @@ tip: |
   
   ```python
   if bedingung1:
-    return x
+      return x
   if bedingung2:
-    return x
+      return x
   ```
   
   kann so zusammengefasst werden:
@@ -57,14 +57,14 @@ tip: |
   
   ```python
   if bedingung1 or bedingung2:
-    return x
+      return x
   ```
 
 solution: |
   ```python
   def berechne_preis(alter, mitglied):
-    if mitglied or alter < 4 or alter > 60:
-      return 0
-    return 2    
+      if mitglied or alter < 4 or alter > 60:
+          return 0
+      return 2    
   ```
 solution_video: https://www.youtube.com/embed/l11lhOmNMrM?si=NMXSa2vDAhn26tbE

@@ -29,16 +29,16 @@ tip: |
       ```{ .python }
       summe = ...
       while ...: 
-        print(f"Bisherige Summe: {summe}")
-        eingabe = ...
-        summe = ...
+          print(f"Bisherige Summe: {summe}")
+          eingabe = ...
+          summe = ...
       ```
 solution: |
   ```{ .python .pytutor_button }
   summe = 0
   while True:
-    print(f"Bisherige Summe: {summe}")
-    eingabe = int(input("Gib eine Zahl ein: "))
-    summe = summe + eingabe
+      print(f"Bisherige Summe: {summe}")
+      eingabe = int(input("Gib eine Zahl ein: "))
+      summe = summe + eingabe
   ```
 solution_video: https://www.youtube.com/embed/KIdszhY_6EE?si=OrAqA9R-RltHbGFx

@@ -4,10 +4,10 @@ question: |
   
   ```{ .python .pytutor_button }
   def gruß_nord():
-    print('Moin')
+      print('Moin')
   
   def gruß_süd():
-    print('Grüß Gott')
+      print('Grüß Gott')
   
   gruß_nord()
   gruß_süd()
@@ -30,6 +30,6 @@ solution: |
   
   ``` { .python hl_lines="2"}
   def gruß_nord():
-    print('Moin moin!')
+      print('Moin moin!')
   ```
 solution_video: https://www.youtube.com/embed/52w0-oHcKlw?si=FFElhsrHUWs1TcH6

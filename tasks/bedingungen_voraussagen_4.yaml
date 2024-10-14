@@ -9,10 +9,10 @@ question: |
   preis = 0
       
   if not mitglied:
-    preis = 3 
+      preis = 3 
   
   if not "h" in name and not "H" in name:
-    preis = preis * 2
+      preis = preis * 2
   
   print(f"{name} zahlt {preis} €.")
   ```

@@ -9,9 +9,9 @@ question: |
    
   while True:
   
-    ...
+      ...
     
-    print(jetziger_spieler)
+      print(jetziger_spieler)
   ```
   
   Ziel ist es den Code so zu erweitern, dass immer abwechselnd die Namen der beiden Spieler ausgegeben werden.
@@ -36,11 +36,11 @@ solution: |
    
   while True:
   
-    zwischenspeicher = jetziger_spieler
-    jetziger_spieler = nächster_spieler
-    nächste_spieler = zwischenspeicher
-    
-    print(jetziger_spieler)
+      zwischenspeicher = jetziger_spieler
+      jetziger_spieler = nächster_spieler
+      nächste_spieler = zwischenspeicher
+      
+      print(jetziger_spieler)
   ```
 
 tip: Errinnern Sie sich, wie man zwei Variablen miteinander vertauscht. Dazu gab es eine Übungsaufgabe namens _Variableninhalte tauschen_.

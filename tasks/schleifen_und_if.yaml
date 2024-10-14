@@ -6,11 +6,11 @@ question: |
   ```{ .python .pytutor_button }
   kunden = 0
   while not kunden == 19:
-    print(kunden)
-    kunden = kunden + 5
-  
-    if kunden >= 12:
-      kunden = kunden - 7
+      print(kunden)
+      kunden = kunden + 5
+    
+      if kunden >= 12:
+          kunden = kunden - 7
   ```
   
   Erklären Sie in ihren Worten, was hier passiert und schreiben Sie die Konsolenausgabe auf.

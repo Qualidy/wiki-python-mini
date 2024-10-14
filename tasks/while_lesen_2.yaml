@@ -11,9 +11,9 @@ question: |
   z = 10
   counter = 0
   while z > 0 and z < 20:
-    print(z)
-    z = z ... 2
-    counter = counter + 1
+      print(z)
+      z = z ... 2
+      counter = counter + 1
   
   print(...)
   ```

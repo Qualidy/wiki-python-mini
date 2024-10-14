@@ -13,8 +13,8 @@ question: |
   ```{ .python .pytutor_button }
   a = 10
   while a > 0:
-    print(a)
-    a = a - 3
+      print(a)
+      a = a - 3
   ```
   
   Beantworten Sie alle Fragen noch mal aber nun sind die Zeilen 3 und 4 vertauscht!
@@ -22,8 +22,8 @@ question: |
   ```{ .python .pytutor_button }
   a = 10
   while a > 0:
-    a = a - 3
-    print(a)
+      a = a - 3
+      print(a)
   ```
 solution: |
   Die Schleiferumpf wird insgesamt 3 Mal durchlaufen.

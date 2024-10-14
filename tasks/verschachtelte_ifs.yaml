@@ -11,13 +11,13 @@ question: |
   film_genre = "Horror"
   
   if film_genre == "Horror":
-    print("Wie alt bist du denn?")
-  
-    if alter >= 18:
-      print("Viel Spaß beim Film!")
-  
-    if alter < 18:
-      print("Das wird nichts!")
+      print("Wie alt bist du denn?")
+    
+      if alter >= 18:
+          print("Viel Spaß beim Film!")
+    
+      if alter < 18:
+          print("Das wird nichts!")
   
   print("Tschüss!")
   ```
@@ -27,13 +27,13 @@ solution: |
   film_genre = "Horror"
   
   if film_genre == "Horror":
-    print("Wie alt bist du denn?")
+      print("Wie alt bist du denn?")
   
-    if alter >= 18:
-      print("Viel Spaß beim Film!")
-  
-    if alter < 18:
-      print("Das wird nichts!")
+      if alter >= 18:
+          print("Viel Spaß beim Film!")
+    
+      if alter < 18:
+          print("Das wird nichts!")
   
   print("Tschüss!")
   ```
