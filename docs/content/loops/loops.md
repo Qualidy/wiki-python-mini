@@ -1,4 +1,4 @@
-# Codewiederholung
+ # Codewiederholung
 
 {{ youtube_video("https://www.youtube.com/embed/RVo03eT3U_A?si=I-5BEoTmDDKH1Nyc") }}
 
@@ -54,6 +54,10 @@ while zahl < 100:
 print(f'Finaler Wert: {zahl}.')
 """) }}
 
+
+!!! bug "Endlosschleifen abbrechen"
+
+    Sollten Sie in eine Endlosschleife geraten, können Sie ins Terminal klicken und die Ausführung mit ++ctrl++ + ++c++ abbrechen.
 
 
 {{ task(file="tasks/while_lesen_1.yaml") }}
