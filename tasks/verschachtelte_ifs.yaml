@@ -4,7 +4,7 @@ question: |
   
   Was passiert, wenn `#!python alter = 15` ist? 
   
-  Was passiert, wenn `#!python alter = 15` und `#!python alter = "Märchen"` ist? 
+  Was passiert, wenn `#!python alter = 15` und `#!python film_genre = "Märchen"` ist? 
   
   ```python
   alter = 25
