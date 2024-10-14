@@ -25,9 +25,3 @@ print(fragezeichen)
 {{ task(file="tasks/dauernder_input_listen.yaml") }}
 
 {{ task(file="tasks/listen_input_manipulieren.yaml") }}
-
-
-Aufgaben for:
-lesen
-addieren lesen
-multiplizieren programmieren
