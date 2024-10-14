@@ -15,7 +15,7 @@ solution: |
   preis = 10
 
   if alter < 18 or alter >= 65:
-      preis = 6
+      preis = 5
 
   if mitglied:
       preis = preis / 2
