@@ -31,7 +31,7 @@ question: |
 solution: |
   a)
   
-  ```python 
+  ```{ .python .pytutor_button }
   gewichte = [100, 65, 23]
   mars_faktor = 0.38
   for gewicht in gewichte:
@@ -41,7 +41,7 @@ solution: |
   
   b)
   
-  ```python
+  ```{ .python .pytutor_button }
   gewichte = [100, 65, 23]
   mars_gewichte = []
   mars_faktor = 0.38
