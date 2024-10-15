@@ -21,7 +21,7 @@ question: |
   b) Erweitere das Programm, sodass zusätzlich alle Marsgewichte in einer Liste 
   gespeichert und am Ende ausgegeben werden.
   
-    ```
+  ```
   Dein Marsgewicht: 38.0
   Dein Marsgewicht: 24.7
   Dein Marsgewicht: 8.74
@@ -31,7 +31,7 @@ question: |
 solution: |
   a)
   
-  ```{ .python .pytutor_button }
+  ```python 
   gewichte = [100, 65, 23]
   mars_faktor = 0.38
   for gewicht in gewichte:
@@ -40,7 +40,8 @@ solution: |
   ```
   
   b)
-  ```{ .python .pytutor_button }
+  
+  ```python
   gewichte = [100, 65, 23]
   mars_gewichte = []
   mars_faktor = 0.38
