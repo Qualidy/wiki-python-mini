@@ -6,7 +6,7 @@ question: |
 solution: |
   ```{ .python .pytutor_button }
   def countdown_from(n):
-      counter = n:
+      counter = n
       while counter >= 0:
           print(counter)
           counter = counter - 1
