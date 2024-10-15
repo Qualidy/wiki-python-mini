@@ -26,7 +26,7 @@ solution: |
   
   ```{ .python .pytutor_button }
   def countdown():
-      counter = 10:
+      counter = 10
       while counter > -1:
           print(counter)
           counter = counter - 1
