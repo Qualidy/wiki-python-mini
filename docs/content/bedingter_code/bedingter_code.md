@@ -22,7 +22,7 @@ if 'q' in name:
 print(f'Auf jeden Fall ist dein Name {name}')
 """)}}
 
-Wenn die Bedingung, die neben dem `if` steht, wahr ist, dann werden die nächsten Zeilen Code, die eingerückt sind ausgeführt.
+Wenn die Bedingung, die neben dem `if` steht, wahr ist, dann werden die nächsten Zeilen Code, die eingerückt sind, ausgeführt.
 Wenn die Bedingung aber falsch ist, werden die eingerückten Zeilen einfach übersprungen.
 
 {{ task(file="tasks/if_einfügen.yaml") }}

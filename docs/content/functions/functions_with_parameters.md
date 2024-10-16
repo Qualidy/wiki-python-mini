@@ -7,7 +7,7 @@ den übergebenen Parametern, in ihren Ergebnissen variieren, obwohl die Rechenvo
 
 Im Bild gesprochen: Ein Rezept besteht einerseits aus einer Liste von Zubereitungsschritten (Funktionskörper)
 aber auch aus einer Auflistung der Zutaten (Parameter). Nun kann man zwei verschiedene Kuchen mit demselben Rezept 
-backen, indem man die Zutaten variiert. So macht es z.B. einen Unterschied welche konkrete Apfelsorte man in einem
+backen, indem man die Zutaten variiert. So macht es z.B. einen Unterschied, welche konkrete Apfelsorte man in einem
 Apfelkuchen verwendet.
 
 Definieren wir Parameter in einer Funktion, so müssen wir diese beim Funktionsaufruf mit Klammern angeben:

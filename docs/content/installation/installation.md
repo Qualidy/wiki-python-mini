@@ -10,7 +10,7 @@ Um mit dem Programmieren loslegen zu können müssen wir zunächst Python und ei
 
     ---
     
-    Um Pythonprogramme schreiben und ausführen zu können benötigen Sie das Programm _Python_ auf dem Rechner.
+    Um Pythonprogramme schreiben und ausführen zu können, benötigen Sie das Programm _Python_ auf dem Rechner.
     Dann können wir .py-Dateien schreiben und ausführen.
 
     Installiere Python über
@@ -58,5 +58,5 @@ Um mit dem Programmieren loslegen zu können müssen wir zunächst Python und ei
 
 !!! info "Strukturiert bleiben"
 
-    Im folgenden werden Sie viele .py-Dateien erstellen. Sortieren sie diese mit Hilfe von Unterordnern, um nicht die Übersicht
-    zu verlieren. So können Sie z.B. für jedes Seite hier im Browser einen eigenen Unterordner, mit dem Namen des Abschnitts.
+    Im Folgenden werden Sie viele .py-Dateien erstellen. Sortieren sie diese mit Hilfe von Unterordnern, um nicht die Übersicht
+    zu verlieren. So können Sie z.B. für jede Seite hier im Browser einen eigenen Unterordner mit dem Namen des jeweiligen Abschnitts erstellen.

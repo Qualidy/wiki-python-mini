@@ -3,7 +3,7 @@
 Häufig wollen wir bestimmte Operationen auf allen Elementen einer Liste durchführen.
 Dies kann zwar über eine `while`-Schleife implementiert werden, ist aber etwas 
 umständlich und sogar fehleranfällig. Lieber wird mit der `for`-Schleife gearbeitet,
-die erlaubt alle Elemente einer Liste nacheinander durchzugehen, ohne dass dabei
+die es erlaubt, alle Elemente einer Liste nacheinander durchzugehen, ohne dass dabei
 der Index zum Zugriff auf die Elemente genutzt werden muss. 
 
 === "for-loop"
@@ -34,9 +34,9 @@ der Index zum Zugriff auf die Elemente genutzt werden muss.
 
     1. Lege eine Liste mit Elementen an, die durchlaufen werden sollen.
     2. Es wird eine Variable `i` angelegt, die für den Zugriff auf die Liste über den Index benötigt wird.
-    3. Solange `i` nicht größer ist, als der größtmögliche Index, soll die Schleife durchlaufen werden. `len(prodcukte)` gibt die Anzahl der Elemente in der Liste zurück und ist hier `3`.
+    3. Solange `i` nicht größer ist als der größtmögliche Index, soll die Schleife durchlaufen werden. `len(produkte)` gibt die Anzahl der Elemente in der Liste zurück und ist hier `3`.
     4. Um nun auf die Elemente zuzugreifen, wird die Index-Notation `produkte[i]` verwendet.
-    5. Abschließend muss der `i` vergrößert werden, um sicher zu stellen, dass im nächsten Schleifendurchlauf auch auf das nächste Element zugegriffen wird.
+    5. Abschließend muss der Wert für `i` vergrößert werden, um sicher zu stellen, dass im nächsten Schleifendurchlauf auch auf das nächste Element zugegriffen wird.
 
 Konsolenausgabe:
 

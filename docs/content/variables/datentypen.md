@@ -7,10 +7,10 @@ was man mit den Daten, eigentlich tun kann. Zahlen zum Beispiel kann man multipl
 Zeichenketten kann man  miteinander zu längeren Zeichenketten verbinden (1).
 { .annotate }
 
-1.  Der Fachbegriff für das Verknüpfen zweier Zeichenketten zu einem größeren heißt "__konkatinieren__".
+1.  Der Fachbegriff für das Verknüpfen zweier Zeichenketten zu einem größeren heißt "__konkatenieren__".
 
 Eigentlich gibt es in Python eine ganze Reihe von Datentypen und man kann sogar eigene definieren.
-Wir wollen hier nur jedoch nur vier Datentypen vorstellen, die für diese Schulung von uns von Bedeutung sind:
+Wir wollen hier jedoch nur vier Datentypen vorstellen, die für diese Schulung von uns von Bedeutung sind:
 
 | Datentyp | Englisch | Deutsch               | Beispiele                                                 |
 |----------|----------|-----------------------|-----------------------------------------------------------|
@@ -23,7 +23,7 @@ Noch ein paar Zusatzinformationen:
 
 === "Integer"
     
-    In Python können ganzzahlen beliebig groß bzw. klein werden. Das ist sehr angenehm, da man mit ihnen also sicher
+    In Python können Ganzzahlen beliebig groß bzw. klein werden. Das ist sehr angenehm, da man mit ihnen also sicher
     addieren, subtrahieren, multiplizieren und ganz-zahl-dividieren (`%` bzw `//`) kann, ohne dass man sich verrechnet,
     weil man den Raum der Ganzen Zahlen verlässt.
 
@@ -43,9 +43,9 @@ Noch ein paar Zusatzinformationen:
 
     In Python ermöglicht der Datentyp `float` das Speichern von Kommazahlen, jedoch nicht perfekt:
     
-    * Nicht jede Kommazahl ist exakt darstelltbar.
+    * Nicht jede Kommazahl ist exakt darstellbar.
     * Es gibt (aus Sicht von Python) eine größte und eine kleinste Fließkommazahl
-    * Wenn zwei Kommazahlen addiert/multipliziert/... werden, kann es zu rechenfehlern kommen. 
+    * Wenn zwei Kommazahlen addiert/multipliziert/... werden, kann es zu Rechenfehlern kommen. 
 
     Schau dir [dieses Beispiel zum letzten Punkt](https://pythontutor.com/render.html#code=print%280.1%2B0.1%2B0.1%29%0A%0A%23%20Seid%20wann%20ist%20denn%200.1%20%2B%200.1%20%2B%200.1%20%3E%200.3%20%3F&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
     an.

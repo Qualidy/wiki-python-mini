@@ -15,8 +15,8 @@ print('Hallo')
 print(vorname) # (2)!
 ```
 
-1. Wenn `input` aufgerufen wird, sehen wir auf der Kommandozeile den Prompt `Wie heißt du`. Das Programm wartet jetzt auf unsere Eingabe. Unsere Eingabe wird dann in der Variablen `vorname` gespeichert.
-2. Hier wird die Eingabe wieder auf der Console ausgegeben.
+1. Wenn `input` aufgerufen wird, sehen wir auf der Kommandozeile den Prompt `Wie heißt du?`. Das Programm wartet jetzt auf unsere Eingabe. Unsere Eingabe wird dann in der Variablen `vorname` gespeichert.
+2. Hier wird die Eingabe wieder auf der Konsole ausgegeben.
 
 {{ task(file="tasks/input_einfügen.yaml") }}
 
@@ -36,7 +36,7 @@ print(alter + 1)
 Bei Fließkommazahlen nutze `#!python float(input(...))`:
 
 ```python
-preis = float(input('wie viel kostet das Produkt?))
+preis = float(input('wie viel kostet das Produkt?'))
 print('Die Mehrwehrsteuer des Produktes beträgt:')
 print(preis * 0.18)
 ```

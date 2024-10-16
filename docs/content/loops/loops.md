@@ -7,10 +7,10 @@
 
 Mit den `if`-Blöcken haben wir kennengelernt, wie man einen Codeblock nur unter bestimmten Bedingungen durchführt.
 
-Wir wollen nun die `while`-Blöcke anschauen. Diese sind so ähnlich wie `if`-Blöcke, den auch sie prüfen eine
+Wir wollen nun die `while`-Blöcke anschauen. Diese sind so ähnlich wie `if`-Blöcke, denn auch sie prüfen eine
 Bedingung und führen den eingerückten Code nur aus, wenn die Bedinung `True` ist. ABER: Bei `while` wird
-nach jeder Durchführung des eingerückten Codes, ob die Bedingung immernoch erfüllt ist! Und wenn ja, dann
-wird der eingerückte Codeblock NOCH MAL durchgeführt. Und das immerwieder!
+nach jeder Durchführung des eingerückten Codes geprüft, ob die Bedingung immer noch erfüllt ist! Und wenn ja, dann
+wird der eingerückte Codeblock NOCH MAL durchgeführt. Und das immer wieder!
 
 
 
@@ -25,7 +25,7 @@ print(f'Finaler Wert: {zahl}.') # (5)!
 1. Die Variable `zahl` wird mit dem Wert `#!python 1` angelegt.
 2. Es wird geprüft, ob der Wert in `zahl` kleiner als `#!python 100` ist. Wenn ja, werden die nächsten beiden Zeilen ausgeführt. Wenn nein, so wird direkt zu Zeile 5 gesprungen.
 3. Auf der Konsole wird der aktuelle Wert von `zahl` ausgegeben.
-4. Der Wert von `zahl` wird verdopplt und dies in `zahl` gespeichert.
+4. Der Wert von `zahl` wird verdoppelt und dies in `zahl` gespeichert.
    **Achtung: Danach geht es in Zeile 2 weiter!**
 5. Abschließend wird der finale Wert von `zahl` ausgegeben.
 

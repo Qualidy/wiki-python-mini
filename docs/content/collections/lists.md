@@ -11,14 +11,14 @@ Die wichtigste Möglichkeit zum Speichern großer Datenmengen in einer Variable 
 Eine Liste kann man sich vorstellen, wie eine Variable mit mehrere Schubladen und diese Schubladen sind
 durchnummeriert. Die Nummerierung startet mit `0`, geht dann weiter zu `1`, weiter zu `2` usw.
 
-Wir können eine Liste definieren, indem wir die Elemente, die gespeichert werden sollen in eckige Klammern (`[...]`)
+Wir können eine Liste definieren, indem wir die zu speichernden Elemente in eckige Klammern (`[...]`)
 schreiben:
 
 ```
 trinkgeld = [70, 60, 15, 15, 0, 100, 0]
 ```
 
-Um nun auf die Elemente zuzugreifen geben wir den schreiben wir nach dem Variablennamen in eckigen Klammern,
+Um nun auf die Elemente zuzugreifen schreiben wir nach dem Variablennamen in eckigen Klammern,
 welchen Eintrag wir haben möchten.
 
 ```python
@@ -116,7 +116,7 @@ my_list[0] = 10 # (2)!
 
     Dies würde zu einer Überschreibung des `list`-Konstruktors führen und ggf. den Rest des Pythonprogramms zerstören :fontawesome-solid-skull:.
 
-    `list` isthier keine Ausnahme. [Hier findest du noch eine Liste aller Build-In-Functions](https://docs.python.org/3/library/functions.html), die man nicht als Variablennamen verwenden soll.
+    `list` ist hier keine Ausnahme. [Hier findest du noch eine Liste aller Build-In-Functions](https://docs.python.org/3/library/functions.html), die man nicht als Variablennamen verwenden soll.
 
 {{ task(file="tasks/listen_lesen_0.yaml") }}
 

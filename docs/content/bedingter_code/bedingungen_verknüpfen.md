@@ -8,7 +8,7 @@ Wir können mehrere Bedingungen auch miteinander verknüpfen.
 |----------|----------------------------------------------------------------|--------------------|
 | `and`    | Gibt `True` zurück, wenn **alle** Parameter `True` sind.       | `x < 5 and y > 10` |
 | `or`     | Gibt `True` zurück, wenn **eines** der Parameter `True` ist.   | `x < 5 or y > 10`  |
-| `not`    | Invertiert die Eingabe. Aus `True` wird `False` und umbekehrt. | `not x >= 6`       |
+| `not`    | Invertiert die Eingabe. Aus `True` wird `False` und umgekehrt. | `not x >= 6`       |
 
 {{ task(file="tasks/bedingungen_voraussagen_3.yaml") }}
 

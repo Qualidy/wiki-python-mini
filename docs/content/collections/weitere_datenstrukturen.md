@@ -2,13 +2,13 @@
 
 {{ youtube_video("https://www.youtube.com/embed/ypJ-QQQKY2M?si=l69wzgRKPcd69_l0") }}
 
-Sets (deutsch: _Mengen_ ) sind listen sehr ähnlich, sie haben aber zwei für uns wichtige unterschiede:
+Sets (deutsch: _Mengen_ ) sind listen sehr ähnlich, sie haben aber zwei für uns wichtige Unterschiede:
 
-* Jedes Element in der Liste darf nur ein mal auftauchen.
-* Jedes Mengen haben keine Ordnung, das heißt, wir können nicht auf das `x`-te Element zugreifen.
+* Jedes Element in der Liste darf nur einmal auftauchen.
+* Mengen haben keine Ordnung, das heißt, wir können nicht auf das `x`-te Element zugreifen.
 * Sets werden mit geschweifen Klammern definiert, statt mit eckigen.
 
-Ein Anwendungsfall für Sets ist das finden einmaliger Elementen in Listen.
+Ein Anwendungsfall für Sets ist das Finden einmaliger Elemente in Listen.
 
 ```python
 my_list = [1, 1, 2, 1, 2, 3] # (1)!
@@ -41,7 +41,7 @@ my_tuple[0] = 4 # (3)!
 ```
 
 1. Ein Tupel wird hier definiert.
-2. Der Zugriff auf die Elemente des Tupels sieht genau so aus, wie bei Listen.
+2. Der Zugriff auf die Elemente des Tupels sieht genau so aus wie bei Listen.
 3. Hier kommt es bei der Ausführung zu einem Fehler, denn der Inhalt eines Tupels kann im Nachhinein nicht mehr geändert werden. Auch Methoden wie `append` exitieren nicht bei Tupeln.
 
 # Dictionary

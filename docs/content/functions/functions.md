@@ -2,8 +2,7 @@
 
 {{ youtube_video("https://www.youtube.com/embed/OL8OdEm6_hU?si=KoqMvNECuRqKv-6w") }}
 
-Bisher sind alle unsere Codebeispiel so geschrieben, dass dieser einmalig ausgeführt 
-wird und dann nicht mehr gebraucht wird. Das ist normalerweise nicht der Fall.
+Bisher sind alle unsere Codebeispiele so geschrieben, dass der jeweilige Code einmalig ausgeführt und dann nicht mehr gebraucht wird. Das ist normalerweise nicht der Fall.
 Normalerweise werden Codeabschnitte immer wieder und in verschiedenen Kontexten aufgerufen.
 Zum Beispiel wollen wir Code bereitstellen, um den BMI einer Person zu berechnen.
 Den Code möchte man einerseits für beliebige Personen ausführen und andererseits an verschiedenen Stellen
@@ -15,11 +14,11 @@ Die wichtigste Möglichkeit zur Strukturierung des Codes sind Funktionen bzw. Me
 <div markdown>
 In Python ist eine **Funktion** eine selbstständige, wiederverwendbare Codeeinheit, die dazu dient,
 **eine bestimmte Aufgabe** zu erledigen. Funktionen können Parameter akzeptieren, 
-Operationen durchführen und einen können Rückgabewert liefern.
+Operationen durchführen und Rückgabewert liefern.
 
-Beliebte Metaphern, um sie Funktionen vorzustellen sind:
+Beliebte Metaphern, um Funktionen vorzustellen sind:
 
-* Eine Funktion, ist eine Maschine, in die wir Argumente stopfen, damit sie diese verarbeitet und uns Ergebnisse liefert.
+* Eine Funktion ist eine Maschine, in die wir Argumente stopfen, damit sie diese verarbeitet und uns Ergebnisse liefert.
 * Eine Funktion ist wie ein Rezept. Es erwartet bestimmte Zutaten und wenn wir der Anleitung folgen, erhalten wir eine raffinierte Mahlzeit.
 </div>
 
@@ -33,7 +32,7 @@ graph TD;
 
 {{ task(file="tasks/funktionen_identifizieren_1.yaml") }}
 
-Im folgenden Code wird unsere erste eigene Funktion `hoch()` *def*iniert und diese dann drei mal aufgerufen wird:
+Im folgenden Code wird unsere erste eigene Funktion `hoch()` *def*iniert und diese dann drei mal aufgerufen:
 
 ```{ .python hl_lines="1-3"}
 def hoch(): # (1)!
@@ -45,7 +44,7 @@ hoch() # (4)!
 hoch() # (5)!
 ```
 
-1. Die Funktion wird it dem Schlüsselwort `def` definiert. Wir geben ihr den Namen `hoch`. Da sie keine Parameter hat schreiben wir hier einfach runde Klammern `()` und danach einen `:` (so wie beim `if`).<br/>Diese Erste Zeile einer Funktion wird **Funktionskopf** genannt.
+1. Die Funktion wird it dem Schlüsselwort `def` definiert. Wir geben ihr den Namen `hoch`. Da sie keine Parameter hat, schreiben wir hier einfach runde Klammern `()` und danach einen `:` (so wie beim `if`).<br/>Diese Erste Zeile einer Funktion wird **Funktionskopf** genannt.
 2. Die nun eingerückten Zeilen sind der **Funktionsrumpf** oder **Funktionskörper**. Diese werden nur durchgeführt, wenn die Funktion aufgerufen wird.
 3. Wir führen in dieser Zeile die Funktion aus. Dazu schreiben wir den Funktionsnamen auf, gefolgt von runden Klammern.
 4. Wir führen die Funktion erneut aus...
