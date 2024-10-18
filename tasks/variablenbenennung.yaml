@@ -1,6 +1,6 @@
 title: Variablenbenennung
 question: |
-  In Python darf ein Variablenname nur aus Buchstaben, Ziffern und Unterstrichen bestehen. Und Sie darf nicht mit einer Ziffer
+  In Python darf ein Variablenname nur aus Buchstaben, Ziffern und Unterstrichen bestehen. Und sie darf nicht mit einer Ziffer
   beginnen.
   
   Welche der folgenden sind erlaubte Variablennamen?

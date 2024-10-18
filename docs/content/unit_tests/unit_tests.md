@@ -6,20 +6,20 @@ oder die Laufzeit durch klügere Algorithmen verbessert werden. Es gibt viele Gr
 Programms im Laufe der Zeit ändert, aber wie stellt man sicher, dass bei Änderungen (groß oder klein) *alles*
 weiterhin funktioniert?
 
-Eine Antwort auf diese Frage sind **Unittests**. Diese werden von den Programmierern parallel (oder vor) dem 
-eigentlich Code geschrieben und werden Zukünftig immer ausgeführt, wenn es eine Änderung im Code gibt.
-Diese Unittests überprüfen dann nämlich, ob die einzelnen Bausteine meines Codes (die "Units"/Einheiten) immernoch
+Eine Antwort auf diese Frage sind **Unittests**. Diese werden von den Programmierern parallel (oder vor dem 
+eigentlichen Code) geschrieben und werden zukünftig immer ausgeführt, wenn es eine Änderung im Code gibt.
+Diese Unittests überprüfen dann nämlich, ob die einzelnen Bausteine meines Codes (die "Units"/Einheiten) immer noch
 funktionieren, oder ob irgendetwas durch die Änderungen gestört wurde.
 
-In einer Metapher gesprochen. Ein Restaurantbesitzer möchte die Küche renovieren. Er lässt von den Köchen
-eine lange Liste von *Tests* erstellen. Z.B. Es gibt Kochlöffel; die Herdplatte platte wird heiß, wenn man 
-daran dreht; der Eisschrank kann eine Temperatur von -17 °C halten usw. Alle diese Tests funktionieren bisher
+In einer Metapher gesprochen: Ein Restaurantbesitzer möchte die Küche renovieren. Er lässt von den Köchen
+eine lange Liste von *Tests* erstellen. Z.B. "Es gibt Kochlöffel"; "Die Herdplatte wird heiß, wenn man 
+daran dreht"; "Der Eisschrank kann eine Temperatur von -17 °C halten" usw. Alle diese Tests funktionieren bisher
 und das müssen sie auch, wenn die neue Küche eingebaut ist. In der neuen Küche kommen noch neue Geräte hinzu
 und auch für diese würde man weitere Tests der Liste hinzufügen, um alles für die Zukunft zu sichern.
 
 {{ youtube_video("https://www.youtube.com/embed/yvNdCqKufbc?si=5FZ8aZ5gM87fWwcQ") }}
 
-Betrachten wird das folgende Beispiel, in dem die Korrektheit der `quadrat` Funktion getestet wird.
+Betrachten wir das folgende Beispiel, in dem die Korrektheit der `quadrat` Funktion getestet wird.
 Wir sehen hier vier Tests, die prüfen, ob 
 
 * `quadrat(5) == 25`,
@@ -53,9 +53,9 @@ if __name__ == '__main__': # (7)!
 
 1. Wir importieren hier das Modul `unittest`. Das ist ein Ordner mit Pythoncode, den wir nun verwenden können. In diesem sind die Unittests implementiert und wir können diese jetzt in unserem Code definieren und ausführen.
 2. Hier wird die Funktion definiert, die wir testen wollen.
-3. Hier wird eine Klasse namens `TestQuadrat` definiert, welche von `unittest.TestCase` erbt. Kurz gesagt bedeutet dass, dass wir im nun folgenden eingerückten Code Methoden definieren können, die unsere Unittests sind.
-4. Hier wird ein Unittest definiert. Das sieht so ähnlich aus, wie das Definieren einer Funktion. In die runden Klammern gehört immer der Parameter `self`, über den wir die Art des Tests festlegen werden.<br/>Die genaue Bedeutung von `self` wird erst bei der objektorientierten Programmierung wichtig und kann jetzt erstmal von uns hingenommen werden.
-5. Mit `self.assertEqual( ... , ... )` wird gesagt, dass wir im Test sicherstellen (_assert_), dass zwei Werte gleich sind. Hier wollen wir wir sicherstellen, dass das Ergebnis von `quadrat(5)` gleich `25` ist. 
+3. Hier wird eine Klasse namens `TestQuadrat` definiert, welche von `unittest.TestCase` erbt. Kurz gesagt bedeutet das, dass wir im nun folgenden eingerückten Code Methoden definieren können, die unsere Unittests sind.
+4. Hier wird ein Unittest definiert. Das sieht so ähnlich aus wie das Definieren einer Funktion. In die runden Klammern gehört immer der Parameter `self`, über den wir die Art des Tests festlegen werden.<br/>Die genaue Bedeutung von `self` wird erst bei der objektorientierten Programmierung wichtig und kann jetzt erstmal von uns hingenommen werden.
+5. Mit `self.assertEqual( ... , ... )` wird gesagt, dass wir im Test sicherstellen (_assert_), dass zwei Werte gleich sind. Hier wollen wir sicherstellen, dass das Ergebnis von `quadrat(5)` gleich `25` ist. 
 6. Wir definieren hier noch weitere Tests. Wichtig ist, dass deren Namen mit `test_` beginnen.
 7. In diesen zwei Zeilen sorgen wir dafür, dass die Tests beim Ausführen der Datei gefunden und ausgeführt werden. Mehr müssen wir hier zu diesem Zeitpunkt nicht verstehen.
 

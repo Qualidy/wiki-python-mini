@@ -13,7 +13,7 @@ question: |
   
       Diese sog. **f**ormatierten Strings sind sehr nützlich und werden oft verwendet.
   
-  Ändern Sie das Programm, sodass der Nutzer sein eigenes Gewicht angeben kann.
+  Ändere das Programm, sodass der Nutzer sein eigenes Gewicht angeben kann.
 solution: |
   ``` { .python .pytutor_button }
   gewicht = int(input('Was wiegst du?')) # a

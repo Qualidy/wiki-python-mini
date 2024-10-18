@@ -1,8 +1,8 @@
 title: Listen manipulieren
 question: |
-  Karl hat eine Liste mit 4 Elementen erstellt und versucht nun ein neues Element mit der folgenden Syntax hinzuzufügen.
+  Karl hat eine Liste mit vier Elementen erstellt und versucht nun, ein neues Element mit der folgenden Syntax hinzuzufügen.
   
-  Beschreibe den Fehler der Auftritt und wie man ihn korrigiert.
+  Beschreibe den auftretenden Fehler und erkläre, wie man ihn korrigiert.
   
   ```{ .python .pytutor_button }
   freunde = ['Anna', 'Bernd']

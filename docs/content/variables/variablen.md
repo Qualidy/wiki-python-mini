@@ -4,12 +4,12 @@
 
 In Python können wir **Informationen in Variablen speichern**.
 
-Man kann sich so eine Variable vorstellen, wie einen beschrifteten Schuhkarton in einem Schrank. 
-In so einen Schuhkarton kann man zu einem beliebigen Zeitpunkt:
+Man kann sich eine Variable vorstellen wie einen beschrifteten Schuhkarton in einem Schrank. 
+In so einen Schuhkarton kann man zu einem beliebigen Zeitpunkt...
 
-* etwas hineinlegen; 
-* anschauen, was drin ist;
-* den Inhalt durch etwas anderes austauschen.
+* ... etwas hineinlegen; 
+* ... anschauen, was drin ist;
+* ... einen neuen Inhalt hineingeben und den bisherigen Inhalt dadurch austauschen.
 
 Genauso ist es auch bei Variablen.
 
@@ -26,12 +26,12 @@ a = a + 3 # (3)!
 print(a) # (6)!
 ```
 
-1. In der neuen Variablen `#!python a` ist initial der Wert `#!python 1` gespeichert.
-2. In der Variablen `#!python a` ist nun der Wert `#!python 2` gespeichert. Die `#!python 1` wird vergessen.
+1. In der neuen Variable `#!python a` ist initial der Wert `#!python 1` gespeichert.
+2. In der Variable `#!python a` ist nun der Wert `#!python 2` gespeichert. Die `#!python 1` wird vergessen.
 3. Der Wert von `#!python a` wird zunächst ausgelesen und dann 3 dazuaddiert. Das Ergebnis (`#!python 5`) wird dann wieder in `#!python a` gespeichert.
-4. Der Wert der Variablen `#!python a` wird ausgelesen und mit der `#!python print`-Funktion auf der Konsole ausgegeben.
-5. Der Wert der Variablen `#!python a` wird ausgelesen und mit der `#!python print`-Funktion auf der Konsole ausgegeben.
-6. Der Wert der Variablen `#!python a` wird ausgelesen und mit der `#!python print`-Funktion auf der Konsole ausgegeben.
+4. Der Wert der Variable `#!python a` wird ausgelesen und mit der `#!python print`-Funktion auf der Konsole ausgegeben.
+5. Der Wert der Variable `#!python a` wird ausgelesen und mit der `#!python print`-Funktion auf der Konsole ausgegeben.
+6. Der Wert der Variable `#!python a` wird ausgelesen und mit der `#!python print`-Funktion auf der Konsole ausgegeben.
 
 Wir können uns das obige Beispiel nun noch einmal im Debugger ansehen:
 
@@ -72,5 +72,3 @@ print(a)""") }}
 {{ task(file="tasks/variablen_vertauschen.yaml") }}
 
 {{ task(file="tasks/marsgewicht.yaml") }}
-
-

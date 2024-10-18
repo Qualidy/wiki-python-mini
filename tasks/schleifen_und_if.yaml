@@ -13,13 +13,13 @@ question: |
           kunden = kunden - 7
   ```
   
-  Erklären Sie in ihren Worten, was hier passiert und schreiben Sie die Konsolenausgabe auf.
+  Erkläre in Deinen Worten, was hier passiert und schreibe die Konsolenausgabe auf.
 
 solution: |
   
   * In jedem Schleifendurchlauf soll `kunden` um `5` wachsen.
   * Wenn `kunden` dann größer als `12` ist, sollen `7` abgezogen werden.
-  * Wenn `kunden `gleich `19` ist, soll die Schleife beenden.
+  * Wenn `kunden `gleich `19` ist, soll die Schleife enden.
   
   **Konsolenausgabe**
   
@@ -36,5 +36,5 @@ solution: |
   ...
   ```
   
-  Da es ab der `5` wieder von Vorne losgeht, gilt niemals `kunden == 19` und somit bricht die Schleife niemals ab.
+  Da es ab der `5` wieder von vorne losgeht, gilt niemals `kunden == 19` und somit bricht die Schleife niemals ab.
 solution_video: https://www.youtube.com/embed/p_hi-sWOTLQ?si=wgbhJ6-EUI-iB1Lu

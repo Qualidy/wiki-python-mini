@@ -8,8 +8,7 @@ Wir werden nun Möglichkeiten kennenlernen, wie wir in einer Variable eine groß
 
 Die wichtigste Möglichkeit zum Speichern großer Datenmengen in einer Variable sind **Listen**.
 
-Eine Liste kann man sich vorstellen, wie eine Variable mit mehrere Schubladen und diese Schubladen sind
-durchnummeriert. Die Nummerierung startet mit `0`, geht dann weiter zu `1`, weiter zu `2` usw.
+Eine Liste kann man sich vorstellen wie eine Variable mit mehreren durchnummerierten Schubladen. Die Nummerierung startet mit `0`, geht dann weiter zu `1`, weiter zu `2` usw.
 
 Wir können eine Liste definieren, indem wir die zu speichernden Elemente in eckige Klammern (`[...]`)
 schreiben:

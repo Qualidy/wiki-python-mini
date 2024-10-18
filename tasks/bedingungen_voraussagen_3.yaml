@@ -2,7 +2,7 @@ title: Booleans direkt als Bedingung verwenden
 question: |
   Der folgende Code beschreibt, wie im Museum die Eintrittspreise berechnet werden.
 
-  Erklären Sie in deutscher Sprache, wie sich der Preis berechnet.
+  Erkläre in deutscher Sprache, wie sich der Preis berechnet.
   
   Was passiert, wenn man die Variable `#!python vereinsmitglied = False` setzt?
   
@@ -25,5 +25,5 @@ solution: |
   
   Wenn die Person Vereinsmitglied ist (also wenn die Variable vereinsmitglied auf `True` gesetzt ist), wird der Preis auf `0` gesetzt, unabhängig vom Alter. 
 
-  Wenn `vereinsmitglied` auf `False` gesetzt wird, hat dies zur Folge, dass die zweite Bedingung `if vereinsmitglied:` nicht erfüllt wird. Das bedeutet, dass die Person keinen kostenlosen Eintritt bekommt.
+  Wenn `vereinsmitglied` auf `False` gesetzt wird, hat dies zur Folge, dass die zweite Bedingung `if vereinsmitglied:` nicht erfüllt wird. Das bedeutet, dass die Person keinen kostenlosen Eintritt erhält.
 solution_video: https://www.youtube.com/embed/jscB6GWl43s?si=hVf35BaFeY4UMp0g

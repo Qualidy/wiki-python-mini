@@ -1,7 +1,7 @@
 title: Implementiere `symbol_schreiben`
 question: |
   In der Methode `symbol_schreiben` wird implementiert, wie ein neues Symbol auf das Spielfeld eingetragen wird.
-  Implementieren Sie dies. Hier sind Unittest, mit denen sie überprüfen können, ob ihre Funktion richtig ist:
+  Implementiere dies. Hier sind Unittests, mit denen du überprüfen kannst, ob deine Funktion richtig ist:
   
   ```python hl_lines="5"
   import unittest
@@ -41,7 +41,7 @@ question: |
   7. Nun wird geprüft, ob die liste `spielbrett` korrekt geändert wurde.
 
 tip: |
-  Schreiben Sie die Tests in eine seperate Datei. Wenn alles funktiniert, kopieren sie die korrekte Implementierung. Das ist zwar nicht die feine englische Art, aber für den moment ok so.
+  Schreibe die Tests in eine seperate Datei. Wenn alles funktioniert, kopiere die korrekte Implementierung. Das ist zwar nicht die feine englische Art, aber für den Moment okay.
 solution: |
   ```python
   def symbol_schreiben(spielbrett, position, symbol):

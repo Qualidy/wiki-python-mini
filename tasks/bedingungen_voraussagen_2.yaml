@@ -1,8 +1,8 @@
 title: Programmausführung voraussagen
 question: |
-  Abhängig von der Variablen `alter`, hat die Variable `preis` einen anderen Inhalt.
+  Abhängig von der Variablen `alter` hat die Variable `preis` einen anderen Inhalt.
   
-  Sagen sie nunächst voraus, was auf der Konsole erscheint, wenn `alter` mit `#!python 20`, `#!python 70` und `#!python 2` befüllt ist.
+  Sage zunächst voraus, was auf der Konsole erscheint, wenn `alter` mit `#!python 20`, `#!python 70` bzw. `#!python 2` befüllt ist.
   
   Wie lässt sich also die Bestimmung des Preises allgemein beschreiben?
   
@@ -19,7 +19,7 @@ question: |
   print(f"Mit {alter} Jahren zahlst du: {preis} €.")
   ```
 
-tip: Die Zeile `preis = preis - 2` bedeutet, dass der Wert in der Variablen `preis` um `#!python 2` reduziert wird und dieses nun als neuer Wert in `preis` gespeichert wird.
+tip: Die Zeile `preis = preis - 2` bedeutet, dass der Wert in der Variablen `preis` um `#!python 2` reduziert und dieses nun als neuer Wert in `preis` gespeichert wird.
 solution: |
   |`alter`| `preis` | Konsolenausgabe |
   |-|-|-|

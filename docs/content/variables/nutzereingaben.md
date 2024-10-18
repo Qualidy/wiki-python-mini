@@ -38,7 +38,7 @@ Bei Fließkommazahlen nutze `#!python float(input(...))`:
 ```python
 preis = float(input('wie viel kostet das Produkt?'))
 print('Die Mehrwehrsteuer des Produktes beträgt:')
-print(preis * 0.18)
+print(preis * 0.19)
 ```
 
 

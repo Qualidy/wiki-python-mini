@@ -1,6 +1,6 @@
 title: Variablenbefüllung voraussagen
 question: |
-  Sagen Sie voraus, was auf der Konsole ausgegeben wird, wenn das Programm ausgeführt wird.
+  Sag voraus, was auf der Konsole ausgegeben wird, wenn das Programm ausgeführt wird.
   
   ```python
   a = 3

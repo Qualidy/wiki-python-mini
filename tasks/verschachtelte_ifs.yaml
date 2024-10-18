@@ -1,6 +1,6 @@
 title: Verschachtelte `if`s
 question: |
-  Sagen Sie voraus, was auf der Konsole ausgegeben wird, wenn das Programm ausgeführt wird.
+  Sag voraus, was bei Ausführung des Programms auf der Konsole ausgegeben wird.
   
   Was passiert, wenn `#!python alter = 15` ist? 
   

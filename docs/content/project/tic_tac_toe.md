@@ -10,7 +10,7 @@ In diesem Abschnitt werden wir unser bisheriges Können in einem kleinen Projekt
 * Es wird ein quadratisches Spielfeld aus 3x3 (also 9) Feldern gezeichnet.
 * Der Erste Spieler trägt ein `x` in eines der Felder ein.
 * Danach trägt der zweite Spiler ein `o` in eines der Felder ein.
-* Dies wird abwechselnd so lange durchführt, bis in einer Zeile, Spalte oder Diagonalen dreimal das gleiche Symbol auftaucht. Der Spieler, der dieses Symbol zeichnet, gewinnt.
+* Dies wird abwechselnd so lange durchgeführt, bis in einer Zeile, Spalte oder Diagonalen dreimal das gleiche Symbol auftaucht. Der Spieler, der dieses Symbol zeichnet, gewinnt.
 
 Das Ganze soll nachher so aussehen:
 
@@ -91,7 +91,7 @@ if __name__ == '__main__': # (13)!
 11. Diese Funktion untersucht, ob es bereits einen Gewinner beim Tic Tac Toe spiel gibt. 
 12. Diese Funktion ermöglicht es, in einer Liste (dem `spielbrett`) ein vorgegebenes `symbol` an einer bestimmten `position` zu setzen.
 13. Diese beiden Codezeilen sorgen dafür, dass bei Ausführung der Datei das Programm gestartet wird.
-14. Das Spielbrett ist aus sicht des Computers eine Liste mit neun Elementen. Mithilfe der Methode `als_quadrat`, werden wir dieses Spielbrett später auf der Konsole als ein schönes Quadrat ausgeben. Um das Spielfeld beim Programmieren einfacher zu handhaben, ist es hier aber gut, es als eine einfache Liste zu speichern.
+14. Das Spielbrett ist aus Sicht des Computers eine Liste mit neun Elementen. Mithilfe der Methode `als_quadrat`, werden wir dieses Spielbrett später auf der Konsole als ein schönes Quadrat ausgeben. Um das Spielfeld beim Programmieren einfacher zu handhaben, ist es hier aber gut, es als eine einfache Liste zu speichern.
 
 Wir müssen in diesem Code vier Dinge ergänzen:
 

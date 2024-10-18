@@ -1,6 +1,6 @@
 title: Seid gegrüßt!
 question: |
-  Gegeben sei der folgende Code. Beschreiben Sie, auf der Konsole erscheint, wenn dieser durchgeführt wird:
+  Gegeben sei der folgende Code. Beschreibe, was auf der Konsole erscheint, wenn dieser durchgeführt wird:
   
   ```{ .python .pytutor_button }
   def gruß_nord():
@@ -26,7 +26,7 @@ solution: |
   Moin
   ```
   
-  Zeile 2 muss wie folgt geändert werden, für einen veränderten Gruß:
+  Zeile 2 muss wie folgt geändert werden, um den gewünschten Gruß zu erhalten:
   
   ``` { .python hl_lines="2"}
   def gruß_nord():

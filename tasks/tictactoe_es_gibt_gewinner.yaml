@@ -102,7 +102,7 @@ tip: |
   
   Überlege dir dann, wie du diese Bedingungen verknüpfen kannst.
 
-  Schreiben Sie die Tests in eine seperate Datei. Wenn alles funktiniert, kopieren sie die korrekte Implementierung. Das ist zwar nicht die feine englische Art, aber für den moment ok so.
+  Schreibe die Tests in eine seperate Datei. Wenn alles funktiniert, kopiere die korrekte Implementierung. Das ist zwar nicht die feine englische Art, aber für den Moment okay.
 
 solution: |
   ```python

@@ -1,6 +1,6 @@
 title: Listen mit Zahlen definieren
 question: |
-  Definieren Sie eine Liste mit den Zaheln von `#!python 0` bis `#!python 8`. Speichern Sie diese in eine 
+  Definieren eine Liste mit den Zaheln von `#!python 0` bis `#!python 8`. Speicher diese in eine 
   Variable namens `spielfeld`.
 solution: |
   ```python

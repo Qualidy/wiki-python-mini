@@ -1,6 +1,6 @@
 title: Listen definieren
 question: |
-  Definieren Sie eine Liste namens `meine_lieblinge` mit ihren Lieblingsfilmen.
+  Definiere eine Liste namens `meine_lieblinge` mit deinen Lieblingsfilmen.
 solution: |
   ```python
   meine_lieblinge = ['Alles steht Kopf', 'Die Schlange im Schatten des Adlers', 'Der Pate']

@@ -1,6 +1,6 @@
 title: Usernamen überprüfen
 question: |
-  In einem Onlineportal dürfen Nutzer ihren Username frei wählen, jedoch gibt es bestimmte
+  In einem Onlineportal dürfen Nutzer ihren Benutzernamen frei wählen, jedoch gibt es bestimmte
   Begriffe, die nicht als Teil des Namens auftauchen dürfen. Diese sind in der folgenden
   Liste verbotener Wörter notiert:
   
@@ -8,7 +8,7 @@ question: |
   verboten = ['admin', 'super', 'user']
   ```
   
-  Folgende Nutzernamen währen hier also verboten:
+  Folgende Nutzernamen wären hier also verboten:
   
   * **super**man
   * **admin**istrator
@@ -17,7 +17,7 @@ question: |
   * **superadmin**
   * **admin**
   
-  Schreibe ein Programm, das den Nutzer um einen Namen bitten und eine Warnmeldung gibt, wenn der Name verboten ist.
+  Schreibe ein Programm, das den Nutzer um einen Namen bittet und eine Warnmeldung gibt, wenn der Name verboten ist.
 
 solution: |
   ```{ .python .pytutor_button }

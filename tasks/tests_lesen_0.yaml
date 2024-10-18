@@ -13,7 +13,7 @@ question: |
       return 2    
   ```
   
-  Jürgen hat auch Tests geschrieben, um sicherzustellen, dass Sein Code funktioniert:
+  Jürgen hat auch Tests geschrieben, um sicherzustellen, dass sein Code funktioniert:
   
   ``` { .python hl_lines="" }
   import unittest  
@@ -38,9 +38,9 @@ question: |
   Alle seine Tests funktionieren.
   
   Jürgen hat nun kennengelernt, wie man Bedingungen mit `or`, `and` und `not` miteinander verknüpft und 
-  möchte nun seine Funktion etwas schlanker neu Programmieren.
+  möchte nun seine Funktion etwas schlanker neu programmieren.
   
-  Passe die Funktion von Jürgen an und achte dabei darauf, dass die Tests immernoch funktionieren!
+  Passe die Funktion von Jürgen an und achte dabei darauf, dass die Tests immer noch funktionieren!
 
 tip: |
   Der folgende Code

@@ -3,8 +3,8 @@
 {{ youtube_video("https://www.youtube.com/embed/gEy1XRQ9mC4?si=1OuIdziMzDnSt3Pz") }}
 
 Die Daten, die in einer Variable gespeichert sind, haben einen Typ. In Python ist dies wichtig, um zu wissen,
-was man mit den Daten, eigentlich tun kann. Zahlen zum Beispiel kann man multiplizieren und addieren.
-Zeichenketten kann man  miteinander zu längeren Zeichenketten verbinden (1).
+was man mit den Daten eigentlich tun kann. Zahlen zum Beispiel kann man multiplizieren und addieren.
+Zeichenketten kann man miteinander zu längeren Zeichenketten verbinden (1).
 { .annotate }
 
 1.  Der Fachbegriff für das Verknüpfen zweier Zeichenketten zu einem größeren heißt "__konkatenieren__".
@@ -36,9 +36,9 @@ Noch ein paar Zusatzinformationen:
 
 === "Float"
     
-    Es gibt unendlich viele Zahlen mit Stellen nach dem Komma. Und schlimmer noch: zwischen zwei verschiedenen Kommazahlen gibt es
-    immer eine die dazwischen liegt! Da wir außerdem noch für jede Kommazahl nur den gleichen endlichen Speicherplatz
-    zur Verfügung stellen, um sie zu speichern, egal wie groß sie ist (`1` zu speichern verbraucht genau so viel Speicher
+    Es gibt unendlich viele Zahlen mit Stellen nach dem Komma. Und schlimmer noch: Zischen zwei verschiedenen Kommazahlen gibt es
+    immer eine, die dazwischen liegt! Da wir außerdem noch für jede Kommazahl nur den gleichen endlichen Speicherplatz
+    zur Verfügung stellen um sie zu speichern, egal wie groß sie ist (`1` zu speichern verbraucht genau so viel Speicher
     wie `1000000`), ist das Speichern von Kommazahlen ein echtes Problem.
 
     In Python ermöglicht der Datentyp `float` das Speichern von Kommazahlen, jedoch nicht perfekt:

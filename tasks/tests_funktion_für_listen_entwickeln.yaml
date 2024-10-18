@@ -1,6 +1,6 @@
 title: Drei Gleich
 question: |
-  Wir wollen eine Funktion entwickeln, prüft, ob in einer Liste die Elemente an dre Positionen gleich sind.
+  Wir wollen eine Funktion entwickeln, die prüft, ob in einer Liste die Elemente an drei Positionen gleich sind.
   Der Methodenkopf sieht wie folgt aus:
   
   ```python
@@ -31,7 +31,7 @@ question: |
       unittest.main()
   ```
   
-  Implementieren Sie die Funktion, sodass alle Tests grün werden.
+  Implementiere die Funktion, sodass alle Tests grün werden.
 
 tip: |
   * Mit der Notation `my_list[pos]` kann in einer Liste auf das Element an der Stelle `pos` zugegriffen werden.

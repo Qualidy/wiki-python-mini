@@ -16,7 +16,7 @@ my_set = set(my_list) # (2)!
 print(my_set) # (3)!
 ```
 
-1. Liste `my_list` wird erstellt. Manche Elemente sind doppelt und dreifach vorhanden.
+1. Liste `my_list` wird erstellt. Manche Elemente sind mehrfach vorhanden.
 2. Aus der Liste wird ein Set (Menge) gemacht.
 3. In der Liste sind nun alle Elemente einmalig.
 
@@ -42,14 +42,14 @@ my_tuple[0] = 4 # (3)!
 
 1. Ein Tupel wird hier definiert.
 2. Der Zugriff auf die Elemente des Tupels sieht genau so aus wie bei Listen.
-3. Hier kommt es bei der Ausführung zu einem Fehler, denn der Inhalt eines Tupels kann im Nachhinein nicht mehr geändert werden. Auch Methoden wie `append` exitieren nicht bei Tupeln.
+3. Hier kommt es bei der Ausführung zu einem Fehler, denn der Inhalt eines Tupels kann im Nachhinein nicht mehr geändert werden. Auch Methoden wie `append` existieren nicht bei Tupeln.
 
 # Dictionary
 
 {{ youtube_video("https://www.youtube.com/embed/m2hu4iQwHBY?si=uJIu3hgW7RSkJjcX") }}
 
 Dictionaries sind eine häufig verwendete Datenstruktur, die man als eine Liste mit speziellen Zugriffsmöglichkeiten betrachten kann.
-Bei einer Liste greift man auf die Werte immer über Zahlen zu. Bei einem Dictionary werden auf die Werte (Values) über 
+Bei einer Liste greift man auf die Werte immer über Zahlen zu. Bei einem Dictionary wird auf die Werte (Values) über 
 vorher definierte Schlüssel (Keys) zugegriffen.
 
 Wir können uns also vorstellen, dass die Schubladen in unseren Schränken nicht durchnummeriert sind, sondern eine Aufschrift haben.

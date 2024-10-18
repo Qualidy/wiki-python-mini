@@ -1,10 +1,10 @@
 title: Summe von Eingaben bilden
 question: |
-  Schreibe ein Programm, dass den Nutzer nach einer Zahl fragt.
-  Das Programm hat intern in einer Variablen namens `summe` die Summe 
+  Schreibe ein Programm, das den Nutzer nach einer Zahl fragt.
+  Das Programm kann intern in einer Variablen namens `summe` die Summe 
   aller bisher abgefragten Zahlen bilden und ausgeben.
   
-  Die Konsolenausgabe soll also etwa so aussehen:
+  Die Konsolenausgabe soll also in etwa so aussehen:
   
   ```
   Bisherige Summe: 0
@@ -19,7 +19,7 @@ question: |
 tip: |
   === "Tipps ohne Code"
       
-      * Lege dir zunächst eine Variable `summe` an, in der du die Summenden zusammenzählen wirst. Was ist ein sinnvoller Startwert?
+      * Lege dir zunächst eine Variable `summe` an, in der du die Summanden zusammenzählen wirst. Was ist ein sinnvoller Startwert?
       * Um eine Schleife dauerhaft für immer zu durchlaufen kann als Bedingung `True` genutzt werden.
       * Mit `int(input("Gib eine Zahl ein: "))` kann man den Nutzer um eine Zahl bitten.
       * Addiere die Eingabe zu `summe` und speichere diese. 

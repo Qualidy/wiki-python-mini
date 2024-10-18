@@ -1,7 +1,7 @@
 # Umgang mit Sprachmodellen
 
-Mit der Veröffentlichung Large Language Model _ChatGPT_
-ist eine neue Äre des Programmierens und Programmieren Lernens
+Mit der Veröffentlichung des Large Language Models _ChatGPT_
+ist eine neue Ära des Programmierens und Programmieren Lernens
 angebrochen.
 
 Textgenerierende Sprachmodelle können eine riesige Hilfe
@@ -13,7 +13,7 @@ und welche Gefahren sie bergen.
 
 ## Gefahren
 
-* Teile den Modellen keine sensiblen Daten mit. Denn diese gehen in das Modell ein und könnten von der KI-Firma genutzt werden oder durch geschickte Fragen von anderen Nutzern dem Modell wieder entlockt werden.
+* Teile den Modellen keine sensiblen Daten mit. Denn diese gehen in das Modell ein und könnten von der KI-Firma genutzt oder durch geschickte Fragen von anderen Nutzern dem Modell wieder entlockt werden.
 * Sprachmodelle lügen oft, wenn sie keine Antwort wissen.
 * Sprachmodelle lassen sich leicht dazu zu überreden zu lügen, nur um dem Nutzer zuzustimmen.
 * Sprachmodelle machen Fehler.
