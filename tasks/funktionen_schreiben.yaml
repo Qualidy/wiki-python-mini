@@ -1,9 +1,9 @@
 title: Eigene Funktion schreiben
 question: |
-  Erstellen Sie eine Funktion `countdown`, die auf der Konsole die Zahlen von `#!python 10` bis `#!python 0`
+  Erstelle eine Funktion `countdown`, die auf der Konsole die Zahlen von `#!python 10` bis `#!python 0`
   ausgibt.
   
-  Bonus 🚀 Verwenden Sie eine `while`-Schleife in ihrer implementierung.
+  Bonus 🚀 Verwende eine `while`-Schleife in deiner Implementierung.
 solution: |
   ```{ .python .pytutor_button }
   def countdown():

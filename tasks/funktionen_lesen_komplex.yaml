@@ -1,10 +1,10 @@
 title: Komplexe Funktion lesen
 question: |
-  Was folgende Programm berechnet einen Preis.
+  Das folgende Programm berechnet einen Preis.
   
   Was erscheint hier auf der Konsole, wenn das Programm ausgeführt wird?
   
-  Erklären Sie, wie sich der Preis berechnet.
+  Erkläre, wie sich der Preis berechnet.
   
   ```{ .python .pytutor_button }
   def berechne_rabbatierten_preis(preis, wochentag, alter):
@@ -28,7 +28,7 @@ question: |
   ```
 solution: |
   Am Wochenende gibt es einen Rabatt von 25% und für Kinder bis einschließlich fünf Jahren und Erwachsene ab 66 Jahren
-  einen Rabatt zusätzlichen Rabatt von 50%.
+  einen zusätzlichen Rabatt von 50%.
   
   Konsolenausgabe:
   

@@ -57,7 +57,7 @@ print(f'Finaler Wert: {zahl}.')
 
 !!! bug "Endlosschleifen abbrechen"
 
-    Sollten Sie in eine Endlosschleife geraten, können Sie ins Terminal klicken und die Ausführung mit ++ctrl++ + ++c++ abbrechen.
+    Solltest Du in eine Endlosschleife geraten, kannst Du ins Terminal klicken und die Ausführung mit ++ctrl++ + ++c++ abbrechen.
 
 
 {{ task(file="tasks/while_lesen_1.yaml") }}

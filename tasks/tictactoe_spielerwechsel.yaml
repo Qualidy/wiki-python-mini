@@ -1,10 +1,10 @@
 title: Implementiere den Spielerwechsel
 question: |
   Nach jedem Zug müssen `aktiver_spieler` und `nächster_spieler` wechseln.
-  Dazu muss der Inhalt der Variablen getauscht werden.
-  Fügen Sie den Code in die Vorlage ein.
+  Dazu muss der Inhalt der Variable getauscht werden.
+  Füge den Code in die Vorlage ein.
 tip: |
-  Schauen Sie sich Übungsaufgabe _Variableninhalte tauschen_ an.
+  Schaue dir die Übungsaufgabe _Variableninhalte tauschen_ an.
 solution: |
   ```{ .python hl_lines="14-16" }
   def gameloop():

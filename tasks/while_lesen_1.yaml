@@ -2,7 +2,7 @@ title: Schleifen lesen
 question: |
   Schau dir den folgenden Code an und vollziehe nach, was passiert, wenn dieser ausgeführt wird.
   
-  Wie oft wird der Rumpf `while`-Schleife durchlaufen?
+  Wie oft wird der Rumpf der `while`-Schleife durchlaufen?
   
   Wie oft wird die Bedingung geprüft?
   
@@ -17,7 +17,7 @@ question: |
       a = a - 3
   ```
   
-  Beantworten Sie alle Fragen noch mal aber nun sind die Zeilen 3 und 4 vertauscht!
+  Beantworte alle Fragen noch mal, aber nun sind die Zeilen 3 und 4 vertauscht!
   
   ```{ .python .pytutor_button }
   a = 10
@@ -26,9 +26,9 @@ question: |
       print(a)
   ```
 solution: |
-  Die Schleiferumpf wird insgesamt 3 Mal durchlaufen.
+  Die Schleiferumpf wird insgesamt drei Mal durchlaufen.
 
-  Die Bedingung wird 4 Mal geprüft.
+  Die Bedingung wird vier Mal geprüft.
   
   Auf der Konsole erscheint
   

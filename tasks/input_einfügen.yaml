@@ -1,6 +1,6 @@
 title: Nutzereingabe erwarten
 question: |
-  Ersetzten Sie die `#!python ...` im folgenden Code so, dass es einer Variable `#!python vorname` der Name des Nutzers gespeichert wird.
+  Ersetze die `#!python ...` im folgenden Code so, dass in einer Variable `#!python vorname` der Name des Nutzers gespeichert wird.
   Danach soll in der Variable `#!python alter` das Alter des Nutzers gespeichert werden.
   
   ```python

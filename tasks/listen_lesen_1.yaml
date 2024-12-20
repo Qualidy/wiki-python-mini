@@ -16,7 +16,7 @@ question: |
   print(list_1)
   ```
 tip: |
-  `list_0 = []` beschreibt eine _leere Liste_, ohne Elemente.
+  `list_0 = []` beschreibt eine _leere Liste_, also eine Liste ohne Elemente.
   
   Berechne zunächst den Inhalt der Elemente in `list_1`. Die Elemente sind durch Kommas (`,`) getrennt.
 solution: |

@@ -1,14 +1,14 @@
 title: Speicher manipulieren
 question: |
-  Schreibe ein Programm, dass in einer Liste die Zahlen von `#!python 0` bis `#!python 8` gespeichert hat.
+  Schreibe ein Programm, das in einer Liste die Zahlen von `#!python 0` bis `#!python 8` gespeichert hat.
   Ziel dieses Programms ist es nun die gespeicherten Zahlen durch Nutzereingaben zu manipulieren.
   
   Das Programm fragt dann den Nutzer nach einer Zahl zwischen `#!python 0` und `#!python 8`. Es speichert diese
   Eingabe in der Variablen namens `pos`.
   
-  Das Programm fragt den Nutzer dann, nach der zu speichernden Text. Dieser Text wird nun in der Liste an der Postion `pos` gespeichert und der bisherige Wert wird überschrieben.
+  Das Programm fragt den Nutzer dann nach dem zu speichernden Text. Dieser Text wird nun in der Liste an der Postion `pos` gespeichert und der bisherige Wert wird überschrieben.
   
-  Erweitern Sie das Programm so, dass der Nutzer immer wieder abgefragt wird.
+  Erweitere das Programm so, dass der Nutzer immer wieder abgefragt wird.
   
   Die Konsolenausgabe sollte dann wie folgt aussehen:
   
@@ -35,8 +35,8 @@ tip: |
       * Lege dir zunächst eine Variable `speicher` an mit den Zahlen von `#!python 0` bis `#!python 8` (siehe Übungsaufgabe _Listen definieren mit Zahlen_).
       * Um eine Schleife dauerhaft für immer zu durchlaufen kann als Bedingung `True` genutzt werden.
       * Nutzerabfragen können mit der `input` Funktion eingeholt werden.
-      * Nutzer eingaben liefern immer nur Strings zurück. Wenn sie als Integer gebraucht werden, nutze `int(input(...))`.
-      * Der Postion, die manipuliert werden muss, steht in `pos`.
+      * Nutzereingaben liefern immer nur Strings zurück. Wenn sie als Integer gebraucht werden, nutze `int(input(...))`.
+      * Die Postion, die manipuliert werden muss, steht in `pos`.
 
   === "Codevorlage mit Schleife"
 

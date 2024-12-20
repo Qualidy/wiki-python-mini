@@ -1,6 +1,6 @@
 title: Variable Durchlaufzahl
 question: |
-  Ersetzen Sie die `...` mit den verschiedenen Operatoren `+`, `-`, `*` und `/`.
+  Ersetze die `...` mit den verschiedenen Operatoren `+`, `-`, `*` und `/`.
   
   Was kannst du beobachten? Wie oft wird die Schleife den Rumpf durchlaufen?
   
@@ -24,7 +24,7 @@ tip: |
 solution: |
   Die Variable `counter` zählt mit, wie oft der Schleifenrumpf durchlaufen wurde.
   
-  die letzte Zeile lautet:
+  Die letzte Zeile lautet:
   
   ```python
   print(f"Die Schleife wurde {counter}-Mal durchlaufen"
@@ -87,6 +87,6 @@ solution: |
       Die Schleife wurde 1078-mal durchlaufen.
       ```
       
-      Die Schleife bricht ab, als die kleinsten `float`-Zahlen durch `2` geteilt wurde und `0` errechnet wurde (was mathematsich nicht korrekt ist).
+      Die Schleife bricht ab, als die kleinste `float`-Zahle durch `2` geteilt und `0` errechnet wurde (was mathematisch nicht korrekt ist).
       Könnte Python Kommazahlen mathematisch korrekt berechnen würden wir hier in eine Endlosschleife geraten.
 solution_video: https://www.youtube.com/embed/offcBIwL7jY?si=QFN_eQvBHUOCYggZ

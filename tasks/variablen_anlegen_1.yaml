@@ -1,6 +1,6 @@
 title: Variablen anlegen
 question: |
-  Ersetzten Sie die `#!python ...` im folgenden Code so, dass es eine Variable `#!python vorname` mit dem Wert `'Hans'`
+  Ersetze die `#!python ...` im folgenden Code so, dass es eine Variable `#!python vorname` mit dem Wert `'Hans'`
   und eine Variable `#!python alter` mit dem Wert `#!python 32` gibt.
   
   ```python

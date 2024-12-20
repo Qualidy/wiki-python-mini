@@ -1,6 +1,6 @@
 title: for-Schleifen lesen
 question: |
-  Gegeben sei der folgende Code. Sagen sie voraus, was auf der Konsole erscheinen wird:
+  Gegeben sei der folgende Code. Sag voraus, was auf der Konsole erscheinen wird:
   ```python
   print("Meine Freunde heißen:")
   for name in ["Karl", "Jannik", "Alexa"]:

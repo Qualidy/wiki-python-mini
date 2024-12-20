@@ -24,7 +24,7 @@ question: |
   
   Mit `\n` kann in einem String ein Zeilenumbruch gesetzt werden.
 
-  Implementieren Sie dies. Hier sind Unittest, mit denen sie überprüfen können, ob ihre Funktion richtig ist:
+  Implementiere dies. Hier sind Unittests, mit denen du überprüfen kannst, ob deine Funktion richtig ist:
   
   ```python hl_lines="5"
   import unittest
@@ -49,7 +49,7 @@ question: |
       unittest.main()
   ```
 tip: |
-  Schreiben Sie die Tests in eine seperate Datei. Wenn alles funktiniert, kopieren sie die korrekte Implementierung. Das ist zwar nicht die feine englische Art, aber für den moment ok so.
+  Schreibe die Tests in eine seperate Datei. Wenn alles funktiniert, kopiere die korrekte Implementierung. Das ist zwar nicht die feine englische Art, aber für den Moment okay.
 solution: |
   ```python
   def als_quadrat(spielbrett):

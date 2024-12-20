@@ -6,7 +6,7 @@ question: |
   mitarbeiter = ['Anton', 'Bernd', 'Clara', 'Dennis']
   ```
   
-  Tauschen Sie die `Bernd` durch eine `Emil` aus. 
+  Tauschen Sie `Bernd` durch einen `Emil` aus. 
   
   Geben Sie dann jedes zweite Element der Liste aus. Die Konsolenausgabe ist also diese:
   

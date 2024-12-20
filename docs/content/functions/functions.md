@@ -18,7 +18,7 @@ Operationen durchführen und Rückgabewert liefern.
 
 Beliebte Metaphern, um Funktionen vorzustellen sind:
 
-* Eine Funktion ist eine Maschine, in die wir Argumente stopfen, damit sie diese verarbeitet und uns Ergebnisse liefert.
+* Eine Funktion ist eine Maschine, in die wir Rohstoffe stopfen, damit sie diese verarbeitet und uns ein Produkt liefert.
 * Eine Funktion ist wie ein Rezept. Es erwartet bestimmte Zutaten und wenn wir der Anleitung folgen, erhalten wir eine raffinierte Mahlzeit.
 </div>
 
@@ -44,11 +44,11 @@ hoch() # (4)!
 hoch() # (5)!
 ```
 
-1. Die Funktion wird it dem Schlüsselwort `def` definiert. Wir geben ihr den Namen `hoch`. Da sie keine Parameter hat, schreiben wir hier einfach runde Klammern `()` und danach einen `:` (so wie beim `if`).<br/>Diese Erste Zeile einer Funktion wird **Funktionskopf** genannt.
+1. Die Funktion wird mit dem Schlüsselwort `def` definiert. Wir geben ihr den Namen `hoch`. Da sie keine Parameter hat, schreiben wir hier einfach runde Klammern `()` und danach einen `:` (so wie beim `if`).<br/>Diese Erste Zeile einer Funktion wird **Funktionskopf** genannt.
 2. Die nun eingerückten Zeilen sind der **Funktionsrumpf** oder **Funktionskörper**. Diese werden nur durchgeführt, wenn die Funktion aufgerufen wird.
 3. Wir führen in dieser Zeile die Funktion aus. Dazu schreiben wir den Funktionsnamen auf, gefolgt von runden Klammern.
 4. Wir führen die Funktion erneut aus...
-5. Und noch ein drittes mal🥳
+5. Und noch ein drittes Mal🥳
 
 {{ python_tutor("""def hoch():
     print('Er lebe...')

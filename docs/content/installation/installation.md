@@ -10,7 +10,7 @@ Um mit dem Programmieren loslegen zu können müssen wir zunächst Python und ei
 
     ---
     
-    Um Pythonprogramme schreiben und ausführen zu können, benötigen Sie das Programm _Python_ auf dem Rechner.
+    Um Pythonprogramme schreiben und ausführen zu können, benötigst du das Programm _Python_ auf dem Rechner.
     Dann können wir .py-Dateien schreiben und ausführen.
 
     Installiere Python über
@@ -25,7 +25,7 @@ Um mit dem Programmieren loslegen zu können müssen wir zunächst Python und ei
  
     ---
 
-    Um bequem Pythonprogramme zu schreiben Nutzen wir eine Entwicklungsumgebung. (1)
+    Um bequem Pythonprogramme zu schreiben, nutzen wir eine Entwicklungsumgebung. (1)
     { .annotate }
     
     1. Alle hier vorgeschlagenen Entwicklungsumgebungen sind gleichwertig. Wir werden hier mit Visual Studio Code arbeiten.
