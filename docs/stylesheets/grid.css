@@ -3,11 +3,11 @@
     background: linear-gradient(135deg, rgba(255, 193, 7, 0.8), rgba(255, 152, 0, 0.9));
     color: #ffffff;
     border-radius: 12px;
-    padding: 20px;
     position: relative; /* Ermöglicht die Positionierung von absolut positionierten Kindern */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     transition: background 0.3s ease, box-shadow 0.3s ease;
     overflow: visible; /* Ermöglicht, dass Elemente (z. B. Icons) über die Box hinausragen */
+    padding: 0px !important;
 }
 
 /* Hover-Effekt für die Karten */
@@ -40,16 +40,18 @@
 
 /* Anpassung der Textfarbe und Schriftarten */
 .grid.cards.fancy li a {
+    display: block;
     color: #ffffff; /* Überschrift bleibt Weiß */
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: bold;
+    padding: 0.8rem;
 }
 
 .grid.cards.fancy li p {
     color: #ffffff; /* Beschreibung bleibt Weiß */
     font-family: 'Roboto', sans-serif;
-}^
+}
 
 /* Hintergrundfarbe und Helligkeit der Karte bei Hover erhöhen */
 .grid.cards.fancy li:hover a {
