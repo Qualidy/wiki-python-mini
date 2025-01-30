@@ -25,6 +25,7 @@ nav:
       - Rückgabewerte: content/functions/functions_with_returns.md
   - Unit Tests: content/unit_tests/unit_tests.md
   - Projekt TicTacToe: content/project/tic_tac_toe.md
+  - Zertifizierung: content/quiz/quiz.md
 #  - Umgang mit KI: content/ki/umgang.md
 
 
