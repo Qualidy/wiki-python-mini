@@ -16,7 +16,7 @@ hide:
 - [:material-function-variant: **Funktionen**](content/functions/functions.md)
 - [:material-list-status: **Unit Tests**](content/unit_tests/unit_tests.md)
 - [:material-nintendo-game-boy: **Projekt**](content/project/tic_tac_toe.md)
-- [:material-star-circle-outline: **Zertifizierung**](content/quiz/quiz.md)
+- [:material-star-circle-outline: **Quiz**](content/quiz/quiz.md)
 
 [//]: # (- [:simple-rocketdotchat: **Umgang mit KI**]&#40;content/ki/umgang.md&#41;)
 
